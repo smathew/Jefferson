@@ -1,0 +1,2392 @@
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-21 12:45:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_quickrates (0.0ms)
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (15.6ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:45:01) [GET]
+
+ActionController::RoutingError (No route matches "/player.swf" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-21 12:45:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_quickrates (0.0ms)
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (15.6ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:45:04) [GET]
+
+ActionController::RoutingError (No route matches "/player.swf" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:45:09) [GET]
+
+ActionController::RoutingError (No route matches "/player.swf" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:45:22) [GET]
+
+ActionController::RoutingError (No route matches "/player.swf" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:45:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#signin (for 127.0.0.1 at 2010-10-21 12:45:40) [GET]
+Rendering template within layouts/application
+Rendering home/signin
+ERROR: compiling _run_erb_app47views47home47signin46html46erb RAISED compile error
+C:/Rails Projects/websites/Jefferson/app/views/home/signin.html.erb:14: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+...ght=>9, :alt=>"" >Check Orders are for Members Only. Please ...
+                              ^
+C:/Rails Projects/websites/Jefferson/app/views/home/signin.html.erb:14: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+...ck Orders are for Members Only. Please enter your account nu...
+                              ^
+C:/Rails Projects/websites/Jefferson/app/views/home/signin.html.erb:17: syntax error, unexpected '<'
+        <p><%= link_to image_tag("billp...
+         ^
+C:/Rails Projects/websites/Jefferson/app/views/home/signin.html.erb:17: syntax error, unexpected ',', expecting ')'
+...billpaydemo.gif", :width=>177, :height=>53, :alt=>""), "http...
+                              ^
+C:/Rails Projects/websites/Jefferson/app/views/home/signin.html.erb:17: syntax error, unexpected ')', expecting kEND
+...el=>"confirm external" ).to_s); @output_buffer.concat "</p>\...
+                              ^
+Function body:           def _run_erb_app47views47home47signin46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"main_content\" class=\"clearfix\">\n    \t<div id=\"main_content_inner\">\n    \t<h2>Please Sign In</h2>\n        <p class=\"notice\">NOTICE: The feature you are trying to access is available within our Home Branch System.  Please log in to Home Branch to access this information.</p>\n        <div class=\"indent\">\n        <p class=\"red bold\">ALERT: As a security precaution, please remember to click the \"Sign Off\" link when you finish your online session.</p>\n        \n        <p>This site may be utilized for authorized purposes only. Unauthorized access or use is not permitted and constitutes a crime punishable by law. Activity on this site is monitored for security purposes. </p>\n        \n        <p>Please read our "
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Electronic Services Disclosure and Agreement", disclosure_path ).to_s); @output_buffer.concat " for important information about our electronic services. By using Home Branch, you agree to certain terms and conditions therein. </p>\n        \n      <p>Please note that end-of-month processing generally occurs at the close of business on the last working day of the month. Home Branch will be unavailable for approximately 2 hours during this time. </p>\n        \n        <p>"
+
+
+
+; @output_buffer.concat(( image_tag "flash_star.gif", :width=>9, :height=>9, :alt=>"" >Check Orders are for Members Only. Please enter your account number and PIN number to access Check Ordering.</p>
+        
+        
+        <p><%= link_to image_tag("billpaydemo.gif", :width=>177, :height=>53, :alt=>""), "https://www.billpaysite.com/V2/Demo.aspx?instID=38732", :rel=>"confirm external" ).to_s); @output_buffer.concat "</p>\n        </div>\n        </div>\n    </div>"
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Rails Projects/websites/Jefferson/app/views/home/signin.html.erb:23:in `compile!'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1338:in `perform_action_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/Rails Projects/websites/Jefferson/app/views/home/signin.html.erb:14: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+...ght=>9, :alt=>"" >Check Orders are for Members Only. Please ...
+                              ^
+C:/Rails Projects/websites/Jefferson/app/views/home/signin.html.erb:14: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+...ck Orders are for Members Only. Please enter your account nu...
+                              ^
+C:/Rails Projects/websites/Jefferson/app/views/home/signin.html.erb:17: syntax error, unexpected '<'
+        <p><%= link_to image_tag("billp...
+         ^
+C:/Rails Projects/websites/Jefferson/app/views/home/signin.html.erb:17: syntax error, unexpected ',', expecting ')'
+...billpaydemo.gif", :width=>177, :height=>53, :alt=>""), "http...
+                              ^
+C:/Rails Projects/websites/Jefferson/app/views/home/signin.html.erb:17: syntax error, unexpected ')', expecting kEND
+...el=>"confirm external" ).to_s); @output_buffer.concat "</p>\...
+                              ^) on line #14 of app/views/home/signin.html.erb:
+11:         
+12:       <p>Please note that end-of-month processing generally occurs at the close of business on the last working day of the month. Home Branch will be unavailable for approximately 2 hours during this time. </p>
+13:         
+14:         <p><%= image_tag "flash_star.gif", :width=>9, :height=>9, :alt=>"" >Check Orders are for Members Only. Please enter your account number and PIN number to access Check Ordering.</p>
+15:         
+16:         
+17:         <p><%= link_to image_tag("billpaydemo.gif", :width=>177, :height=>53, :alt=>""), "https://www.billpaysite.com/V2/Demo.aspx?instID=38732", :rel=>"confirm external" %></p>
+
+    app/views/home/signin.html.erb:23:in `compile!'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (140.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#signin (for 127.0.0.1 at 2010-10-21 12:46:13) [GET]
+Rendering template within layouts/application
+Rendering home/signin
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:46:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#signin (for 127.0.0.1 at 2010-10-21 12:46:20) [GET]
+Rendering template within layouts/application
+Rendering home/signin
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:46:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#signin (for 127.0.0.1 at 2010-10-21 12:46:25) [GET]
+Rendering template within layouts/application
+Rendering home/signin
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 78ms (View: 78, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:47:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MemappsController#new (for 127.0.0.1 at 2010-10-21 12:48:28) [GET]
+Rendering template within layouts/application
+Rendering memapps/new
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 78ms (View: 78, DB: 0) | 200 OK [http://localhost/memapps/new]
+
+
+Processing MemappsController#create (for 127.0.0.1 at 2010-10-21 12:48:33) [POST]
+  Parameters: {"memapp"=>{"work_phone"=>"", "position"=>"", "city"=>"", "address"=>"", "name"=>"", "zip"=>"", "school_name"=>"", "current_members_name"=>"", "relatives_name"=>"", "ssn"=>"", "best_time_to_Call"=>"", "organization_of_volunteer"=>"", "home_phone"=>"", "employer"=>"", "date_of_birth"=>"", "state"=>"OH"}, "commit"=>"Submit Application", "authenticity_token"=>"ueH6zY7l5HOUkGxD6ma3oOEJXu5+INaTyZN76sW0SFw="}
+Rendering template within layouts/application
+Rendering memapps/new
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 125ms (View: 109, DB: 0) | 200 OK [http://localhost/memapps]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:48:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LoanappsController#new (for 127.0.0.1 at 2010-10-21 12:48:37) [GET]
+Rendering template within layouts/application
+Rendering loanapps/new
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 297ms (View: 266, DB: 0) | 200 OK [http://localhost/loanapps/new]
+
+
+Processing LoanappsController#create (for 127.0.0.1 at 2010-10-21 12:48:42) [POST]
+  Parameters: {"commit"=>"Submit Application", "authenticity_token"=>"ueH6zY7l5HOUkGxD6ma3oOEJXu5+INaTyZN76sW0SFw=", "loanapp"=>{"coapplicant_date_of_birth"=>"", "coapplicant_work_phone"=>"", "coapplicant_city"=>"", "coapplicant_name"=>"", "applicant_work_phone"=>"", "coapplicant_email_address"=>"", "coapplicant_home_phone"=>"", "applicant_other_income"=>"", "applicant_address"=>"", "applicant_home_phone"=>"", "loan_type"=>"Used Vehicle", "coapplicant_other_income"=>"", "coapplicant_employer_address"=>"", "applicant_name"=>"", "coapplicant_employer"=>"", "coapplicant_zip"=>"", "coapplicant_address"=>"", "applicant_date_of_birth"=>"", "applicant_time_to_call"=>"", "applicant_account_number"=>"", "coapplicant_other_income_source"=>"", "coapplicant_time_to_call"=>"", "applicant_monthly_salary"=>"", "coapplicant_mortgage_rent_payment"=>"", "coapplicant_cell_phone"=>"", "applicant_employer_address"=>"", "applicant_employer"=>"", "applicant_zip"=>"", "coapplicant_ssn"=>"", "coapplicant_hire_date"=>"", "applicant_other_income_source"=>"", "applicant_email_address"=>"", "applicant_state"=>"OH", "applicant_cell_phone"=>"", "preferred_closing_location"=>"9600 Ormsby Station Road", "amount_requested"=>"", "coapplicant_account_number"=>"", "applicant_ssn"=>"", "coapplicant_monthly_salary"=>"", "coapplicant_state"=>"OH", "applicant_mortgage_rent_payment"=>"", "applicant_hire_date"=>"", "applicant_city"=>""}}
+Rendering template within layouts/application
+Rendering loanapps/new
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 141ms (View: 109, DB: 0) | 200 OK [http://localhost/loanapps]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:48:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#prodserv (for 127.0.0.1 at 2010-10-21 12:48:51) [GET]
+Rendering template within layouts/application
+Rendering home/prodserv
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/prodserv]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:49:02) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#calculators (for 127.0.0.1 at 2010-10-21 12:49:05) [GET]
+Rendering template within layouts/application
+Rendering home/calculators
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (15.6ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/calculators]
+
+
+Processing CalculatorController#cic (for 127.0.0.1 at 2010-10-21 12:49:07) [GET]
+Rendering template within layouts/application
+Rendering calculator/cic
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (15.6ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/cic]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:49:09) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#signin (for 127.0.0.1 at 2010-10-21 12:49:11) [GET]
+Rendering template within layouts/application
+Rendering home/signin
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:49:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#signin (for 127.0.0.1 at 2010-10-21 12:49:28) [GET]
+Rendering template within layouts/application
+Rendering home/signin
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (15.6ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:49:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#signin (for 127.0.0.1 at 2010-10-21 12:49:47) [GET]
+Rendering template within layouts/application
+Rendering home/signin
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (15.6ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:50:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#disclosure (for 127.0.0.1 at 2010-10-21 12:50:02) [GET]
+Rendering template within layouts/application
+Rendering home/disclosure
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/disclosure]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:50:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ondoc (for 127.0.0.1 at 2010-10-21 12:50:13) [GET]
+Rendering template within layouts/application
+Rendering home/ondoc
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/ondoc]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:50:15) [GET]
+
+ActionController::RoutingError (No route matches "/pdf/Safe%20Landing%20For%20ATM-Debit%20Transactions.pdf" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:50:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:50:32) [GET]
+
+ActionController::RoutingError (No route matches "/pdf/NL-April2010.pdf" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ondoc (for 127.0.0.1 at 2010-10-21 12:55:03) [GET]
+Rendering template within layouts/application
+Rendering home/ondoc
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/ondoc]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:55:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:55:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:55:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:55:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:55:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:55:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:55:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:55:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:55:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#whatsnew (for 127.0.0.1 at 2010-10-21 12:56:24) [GET]
+Rendering template within layouts/application
+Rendering home/whatsnew
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (15.6ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/whatsnew]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 12:56:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#idtheft (for 127.0.0.1 at 2010-10-21 12:56:47) [GET]
+Rendering template within layouts/application
+Rendering home/idtheft
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/idtheft]
+
+
+Processing HomeController#discount (for 127.0.0.1 at 2010-10-21 12:57:14) [GET]
+Rendering template within layouts/application
+Rendering home/discount
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (15.6ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/discount]
+
+
+Processing HomeController#signin (for 127.0.0.1 at 2010-10-21 12:57:59) [GET]
+Rendering template within layouts/application
+Rendering home/signin
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing HomeController#idtheftnets (for 127.0.0.1 at 2010-10-21 12:58:02) [GET]
+Rendering template within layouts/application
+Rendering home/idtheftnets
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 78ms (View: 78, DB: 0) | 200 OK [http://localhost/idtheftnets]
+
+
+Processing MemappsController#new (for 127.0.0.1 at 2010-10-21 12:58:07) [GET]
+Rendering template within layouts/application
+Rendering memapps/new
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (15.6ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/memapps/new]
+
+
+Processing HomeController#ondoc (for 127.0.0.1 at 2010-10-21 12:58:12) [GET]
+Rendering template within layouts/application
+Rendering home/ondoc
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/ondoc]
+
+
+Processing HomeController#employment (for 127.0.0.1 at 2010-10-21 12:58:19) [GET]
+Rendering template within layouts/application
+Rendering home/employment
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/employment]
+
+
+Processing HomeController#helpfullinks (for 127.0.0.1 at 2010-10-21 12:58:42) [GET]
+Rendering template within layouts/application
+Rendering home/helpfullinks
+ERROR: compiling _run_erb_app47views47home47helpfullinks46html46erb RAISED compile error
+C:/Rails Projects/websites/Jefferson/app/views/home/helpfullinks.html.erb:31: syntax error, unexpected ',', expecting ')'
+...ncat(( "Automobile Discounts", promotions_path(:anchor => "a...
+                              ^
+Function body:           def _run_erb_app47views47home47helpfullinks46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"main_content\" class=\"clearfix\">\n    \t<div id=\"main_content_inner\">\n            <p>\n                We've provided some handy links below for your convenience...<br />\n                We are not responsible for the content or availability of any\n                linked site.\n            </p>\n            <div class=\"links clearfix\">\n                <table class=\"links\">\n                    <tr>\n                        <th>"
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( image_tag "l_loc.gif", :alt=>"" ).to_s); @output_buffer.concat "</th>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Local Weather", "http://www.weather.com", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Jefferson County School System", "http://www.jefferson.k12.ky.us", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Louisville/Jefferson County Metro Govt", "http://www.loukymetro.org", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "National Weather", "http://www.weather.com", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                </table>\n                <table class=\"links\">\n                    <tr>\n                        <th>"
+
+
+
+
+; @output_buffer.concat(( image_tag "l_discounts.gif", :alt=>"" ).to_s); @output_buffer.concat "</th>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( "Automobile Discounts", promotions_path(:anchor => "autodiscounts")).to_s); @output_buffer.concat "</td>\n                    </tr>\n                </table>\n            <table class=\"links\">\n                    <tr>\n                        <th colspan=\"3\">"
+
+
+
+
+; @output_buffer.concat(( image_tag "l_fin.gif", :alt=>"" ).to_s); @output_buffer.concat "</th>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Free Annual Credit Report", "http://www.annualcreditreport.com", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "TransUnion 3-in-1<br />Credit Reports", "http://service.bfast.com/bfast/click?bfmid=33292112&amp;siteid=40328504&amp;bfpage=tu_3-in-1_links", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Financial Aid", "http://www.finaid.com", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Debt Counselors", "http://www.dca.org", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                </tr>\n                </table>\n            <table class=\"links\">\n                    <tr>\n                        <th colspan=\"3\">"
+
+
+
+
+; @output_buffer.concat(( image_tag "l_pub.gif", :alt=>"" ).to_s); @output_buffer.concat "</th>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "USA Today", "http://www.usatoday.com", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Real Pages.com", "http://yp.bellsouth.com", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Wall Street Journal", "http://www.wsj.com", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Find a Friend", "http://www.whowhere.com", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                </table>\n            <table class=\"links\">\n                    <tr>\n                        <th colspan=\"3\">"
+
+
+
+
+; @output_buffer.concat(( image_tag "l_kids.gif", :alt=>"" ).to_s); @output_buffer.concat "</th>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Nickelodeon", "http://www.nick.com", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Disney", "http://www.disney.com", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Warner Bros.", "http://www.warnerbros.com", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Happy Birthday!", "http://www.scopesys.com/today", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                </tr>\n                </table>\n            <table class=\"links\">\n                    <tr>\n                        <th>"
+
+
+
+
+; @output_buffer.concat(( image_tag "l_cu.gif", :alt=>"" ).to_s); @output_buffer.concat "</th>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "NCUA", "http://www.ncua.gov", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Credit Union National Assoc.", "http://www.cuna.org", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                    <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Better Business Bureau", "http://www.ky-in.bbb.org", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                    </tr>\n                <tr>\n                        <td>"
+
+
+; @output_buffer.concat(( link_to "Fed Reserve Board", "http://www.federalreserve.gov/", :rel=>"external confirm" ).to_s); @output_buffer.concat "</td>\n                </tr>\n                </table>\n                </div>\n                <a name=\"memberdiscounts\" id=\"memberdiscounts\"></a>\n            <p>DISCLAIMER:&nbsp;    The information provided by each of these\n                services is the sole responsibility of the entity providing the\n                information. The links to each entity is for the convenience\n                of our members. Jefferson County Federal Credit Union makes no\n                representation, warranty, or endorsement regarding the accuracy\n                of the information provided. Any warranties or representations\n                expressed or implied are hereby disclaimed in their entirety.</p>\n    \t</div>\n    </div>"
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Rails Projects/websites/Jefferson/app/views/home/helpfullinks.html.erb:115:in `compile!'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1338:in `perform_action_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/Rails Projects/websites/Jefferson/app/views/home/helpfullinks.html.erb:31: syntax error, unexpected ',', expecting ')'
+...ncat(( "Automobile Discounts", promotions_path(:anchor => "a...
+                              ^) on line #31 of app/views/home/helpfullinks.html.erb:
+28:                         <th><%= image_tag "l_discounts.gif", :alt=>"" %></th>
+29:                     </tr>
+30:                     <tr>
+31:                         <td><%= "Automobile Discounts", promotions_path(:anchor => "autodiscounts")%></td>
+32:                     </tr>
+33:                 </table>
+34:             <table class="links">
+
+    app/views/home/helpfullinks.html.erb:115:in `compile!'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#helpfullinks (for 127.0.0.1 at 2010-10-21 12:59:36) [GET]
+Rendering template within layouts/application
+Rendering home/helpfullinks
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/helpfullinks]
+
+
+Processing HomeController#promotions (for 127.0.0.1 at 2010-10-21 13:00:01) [GET]
+Rendering template within layouts/application
+Rendering home/promotions
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/promotions]
+
+
+Processing HomeController#prodserv (for 127.0.0.1 at 2010-10-21 13:01:31) [GET]
+Rendering template within layouts/application
+Rendering home/prodserv
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/prodserv]
+
+
+Processing HomeController#prodserv (for 127.0.0.1 at 2010-10-21 13:02:09) [GET]
+Rendering template within layouts/application
+Rendering home/prodserv
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (15.6ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/prodserv]
+
+
+Processing HomeController#ourcu (for 127.0.0.1 at 2010-10-21 13:02:13) [GET]
+Rendering template within layouts/application
+Rendering home/ourcu
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (15.6ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 141ms (View: 141, DB: 0) | 200 OK [http://localhost/ourcu]
+
+
+Processing HomeController#affiliations (for 127.0.0.1 at 2010-10-21 13:02:17) [GET]
+Rendering template within layouts/application
+Rendering home/affiliations
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (15.6ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/affiliations]
+
+
+Processing BoardloginsController#new (for 127.0.0.1 at 2010-10-21 13:02:21) [GET]
+Rendering template within layouts/application
+Rendering boardlogins/new
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/boardlogins/new]
+
+
+Processing BoardloginsController#create (for 127.0.0.1 at 2010-10-21 13:02:22) [POST]
+  Parameters: {"commit"=>"Log-In", "authenticity_token"=>"ueH6zY7l5HOUkGxD6ma3oOEJXu5+INaTyZN76sW0SFw=", "boardlogin"=>{"userid"=>"", "password"=>""}}
+Rendering template within layouts/application
+Rendering boardlogins/new
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/boardlogins]
+
+
+Processing BoardloginsController#create (for 127.0.0.1 at 2010-10-21 13:03:22) [POST]
+  Parameters: {"commit"=>"Log-In", "authenticity_token"=>"ueH6zY7l5HOUkGxD6ma3oOEJXu5+INaTyZN76sW0SFw=", "boardlogin"=>{"userid"=>"official", "password"=>"jcfop14"}}
+  [4;35;1mBoardlogin Create (0.0ms)[0m   [0mINSERT INTO "boardlogins" ("created_at", "updated_at", "userid", "password") VALUES('2010-10-21 18:03:22', '2010-10-21 18:03:22', 'official', 'jcfop14')[0m
+Redirected to http://localhost:3000/boardlogins/54
+Completed in 109ms (DB: 0) | 302 Found [http://localhost/boardlogins]
+
+
+Processing BoardloginsController#show (for 127.0.0.1 at 2010-10-21 13:03:22) [GET]
+  Parameters: {"id"=>"54"}
+  [4;36;1mBoardlogin Load (0.0ms)[0m   [0;1mSELECT * FROM "boardlogins" WHERE ("boardlogins"."id" = 54) [0m
+  [4;35;1mBoardlogin Destroy (0.0ms)[0m   [0mDELETE FROM "boardlogins" WHERE "id" = 54[0m
+Rendering template within layouts/application
+Rendering boardlogins/show
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 156ms (View: 47, DB: 0) | 200 OK [http://localhost/boardlogins/54]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:03:24) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BoardloginsController#show (for 127.0.0.1 at 2010-10-21 13:03:30) [GET]
+  Parameters: {"id"=>"54"}
+  [4;36;1mBoardlogin Load (0.0ms)[0m   [0;1mSELECT * FROM "boardlogins" WHERE ("boardlogins"."id" = 54) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Boardlogin with ID=54):
+  app/controllers/boardlogins_controller.rb:16:in `show'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.9ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (not_found)
+
+
+Processing BoardloginsController#show (for 127.0.0.1 at 2010-10-21 13:03:34) [GET]
+  Parameters: {"id"=>"54"}
+  [4;35;1mBoardlogin Load (0.0ms)[0m   [0mSELECT * FROM "boardlogins" WHERE ("boardlogins"."id" = 54) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Boardlogin with ID=54):
+  app/controllers/boardlogins_controller.rb:16:in `show'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:03:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#calculators (for 127.0.0.1 at 2010-10-21 13:03:43) [GET]
+Rendering template within layouts/application
+Rendering home/calculators
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (31.2ms)
+Completed in 94ms (View: 62, DB: 0) | 200 OK [http://localhost/calculators]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:03:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#prodserv (for 127.0.0.1 at 2010-10-21 13:03:47) [GET]
+Rendering template within layouts/application
+Rendering home/prodserv
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/prodserv]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:03:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#signin (for 127.0.0.1 at 2010-10-21 13:03:52) [GET]
+Rendering template within layouts/application
+Rendering home/signin
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:03:55) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#disclosure (for 127.0.0.1 at 2010-10-21 13:03:56) [GET]
+Rendering template within layouts/application
+Rendering home/disclosure
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/disclosure]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:03:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ondoc (for 127.0.0.1 at 2010-10-21 13:04:01) [GET]
+Rendering template within layouts/application
+Rendering home/ondoc
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (15.6ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/ondoc]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:04:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GuestbooksController#new (for 127.0.0.1 at 2010-10-21 13:04:04) [GET]
+Rendering template within layouts/application
+Rendering guestbooks/new
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (15.6ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/guestbooks/new]
+
+
+Processing GuestbooksController#create (for 127.0.0.1 at 2010-10-21 13:04:12) [POST]
+  Parameters: {"commit"=>"Sign Guestbook", "guestbook"=>{"comments"=>"", "your_system"=>"Windows XP", "last_name"=>"", "email_address"=>"", "first_name"=>""}, "authenticity_token"=>"ueH6zY7l5HOUkGxD6ma3oOEJXu5+INaTyZN76sW0SFw="}
+Rendering template within layouts/application
+Rendering guestbooks/new
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/guestbooks]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:04:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#signin (for 127.0.0.1 at 2010-10-21 13:04:50) [GET]
+Rendering template within layouts/application
+Rendering home/signin
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (125.0ms)
+Completed in 156ms (View: 141, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:04:52) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#prodserv (for 127.0.0.1 at 2010-10-21 13:04:53) [GET]
+Rendering template within layouts/application
+Rendering home/prodserv
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/prodserv]
+
+
+Processing HomeController#prodserv (for 127.0.0.1 at 2010-10-21 13:04:57) [GET]
+Rendering template within layouts/application
+Rendering home/prodserv
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (15.6ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/prodserv]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:04:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#prodserv (for 127.0.0.1 at 2010-10-21 13:05:00) [GET]
+Rendering template within layouts/application
+Rendering home/prodserv
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/prodserv]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:05:04) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#promotions (for 127.0.0.1 at 2010-10-21 13:05:09) [GET]
+Rendering template within layouts/application
+Rendering home/promotions
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (15.6ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/promotions]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:05:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ourcu (for 127.0.0.1 at 2010-10-21 13:06:34) [GET]
+Rendering template within layouts/application
+Rendering home/ourcu
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/ourcu]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:06:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ourcu (for 127.0.0.1 at 2010-10-21 13:06:43) [GET]
+Rendering template within layouts/application
+Rendering home/ourcu
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (15.6ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/ourcu]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:06:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ourcu (for 127.0.0.1 at 2010-10-21 13:06:49) [GET]
+Rendering template within layouts/application
+Rendering home/ourcu
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/ourcu]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:07:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ourcu (for 127.0.0.1 at 2010-10-21 13:07:06) [GET]
+Rendering template within layouts/application
+Rendering home/ourcu
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/ourcu]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:07:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#prodserv (for 127.0.0.1 at 2010-10-21 13:07:48) [GET]
+Rendering template within layouts/application
+Rendering home/prodserv
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/prodserv]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:07:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LoanappsController#new (for 127.0.0.1 at 2010-10-21 13:09:17) [GET]
+Rendering template within layouts/application
+Rendering loanapps/new
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/loanapps/new]
+
+
+Processing HomeController#promotions (for 127.0.0.1 at 2010-10-21 13:09:27) [GET]
+Rendering template within layouts/application
+Rendering home/promotions
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/promotions]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:09:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:09:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MemappsController#new (for 127.0.0.1 at 2010-10-21 13:10:02) [GET]
+Rendering template within layouts/application
+Rendering memapps/new
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (15.6ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/memapps/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:10:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MemappsController#new (for 127.0.0.1 at 2010-10-21 13:10:04) [GET]
+Rendering template within layouts/application
+Rendering memapps/new
+Rendered layouts/_header (31.2ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/memapps/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:10:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MemappsController#new (for 127.0.0.1 at 2010-10-21 13:10:06) [GET]
+Rendering template within layouts/application
+Rendering memapps/new
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (15.6ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/memapps/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:10:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MemappsController#pdf to pdf (for 127.0.0.1 at 2010-10-21 13:10:11) [GET]
+  Parameters: {"id"=>"memagr_n"}
+
+ActionController::UnknownAction (No action responded to pdf. Actions: create, destroy, edit, index, new, show, and update):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#prodserv (for 127.0.0.1 at 2010-10-21 13:10:28) [GET]
+Rendering template within layouts/application
+Rendering home/prodserv
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/prodserv]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:10:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:10:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-10-21 13:10:49) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-10-21 13:11:39) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:11:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:11:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MemappsController#new (for 127.0.0.1 at 2010-10-21 13:11:49) [GET]
+Rendering template within layouts/application
+Rendering memapps/new
+Rendered layouts/_header (125.0ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 187ms (View: 172, DB: 0) | 200 OK [http://localhost/memapps/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:11:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:11:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MemappsController#new (for 127.0.0.1 at 2010-10-21 13:11:57) [GET]
+Rendering template within layouts/application
+Rendering memapps/new
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (15.6ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/memapps/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:11:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MemappsController#pdf to pdf (for 127.0.0.1 at 2010-10-21 13:12:16) [GET]
+  Parameters: {"id"=>"generic_appl"}
+
+ActionController::UnknownAction (No action responded to pdf. Actions: create, destroy, edit, index, new, show, and update):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:12:18) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ourcu (for 127.0.0.1 at 2010-10-21 13:12:19) [GET]
+Rendering template within layouts/application
+Rendering home/ourcu
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/ourcu]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:12:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:12:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing LoanappsController#new (for 127.0.0.1 at 2010-10-21 13:14:33) [GET]
+Rendering template within layouts/application
+Rendering loanapps/new
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (15.6ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 109ms (View: 78, DB: 0) | 200 OK [http://localhost/loanapps/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:14:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:14:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ourcu (for 127.0.0.1 at 2010-10-21 13:14:40) [GET]
+Rendering template within layouts/application
+Rendering home/ourcu
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/ourcu]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:14:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:14:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:19:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_nav_over.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-10-21 13:19:26) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_quickrates (0.0ms)
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (15.6ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-21 13:19:26) [GET]
+
+ActionController::RoutingError (No route matches "/player.swf" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BoardloginsController#new (for 127.0.0.1 at 2010-10-21 13:19:29) [GET]
+Rendering template within layouts/application
+Rendering boardlogins/new
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_announcements (0.0ms)
+Rendered layouts/_otherinfo (0.0ms)
+Rendered layouts/_remoteaccess (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/boardlogins/new]
+
+
+Processing BoardloginsController#create (for 127.0.0.1 at 2010-10-21 13:19:34) [POST]
+  Parameters: {"commit"=>"Log-In", "authenticity_token"=>"ueH6zY7l5HOUkGxD6ma3oOEJXu5+INaTyZN76sW0SFw=", "boardlogin"=>{"userid"=>"official", "password"=>"jcfop14"}}
+  [4;36;1mBoardlogin Create (0.0ms)[0m   [0;1mINSERT INTO "boardlogins" ("created_at", "updated_at", "userid", "password") VALUES('2010-10-21 18:19:34', '2010-10-21 18:19:34', 'official', 'jcfop14')[0m
+Redirected to http://localhost:3000/boardlogins/55
+Completed in 109ms (DB: 0) | 302 Found [http://localhost/boardlogins]
+
+
+Processing BoardloginsController#show (for 127.0.0.1 at 2010-10-21 13:19:34) [GET]
+  Parameters: {"id"=>"55"}
+  [4;35;1mBoardlogin Load (0.0ms)[0m   [0mSELECT * FROM "boardlogins" WHERE ("boardlogins"."id" = 55) [0m
+
+NoMethodError (undefined method `length' for #<Boardlogin:0x5905b00>):
+  app/controllers/boardlogins_controller.rb:20:in `show'
+  app/controllers/boardlogins_controller.rb:18:in `show'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.9ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mBoardlogin Load (0.0ms)[0m   [0;1mSELECT * FROM "boardlogins" [0m
+  [4;35;1mBoardlogin Load (0.0ms)[0m   [0mSELECT * FROM "boardlogins" [0m
+  [4;36;1mBoardlogin Load (0.0ms)[0m   [0;1mSELECT * FROM "boardlogins" [0m

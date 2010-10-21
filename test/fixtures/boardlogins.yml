@@ -1,0 +1,21 @@
+# == Schema Information
+# Schema version: 20101020163513
+#
+# Table name: boardlogins
+#
+#  id         :integer         not null, primary key
+#  userid     :string(255)
+#  password   :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  userid: MyString
+  password: MyString
+
+two:
+  userid: MyString
+  password: MyString

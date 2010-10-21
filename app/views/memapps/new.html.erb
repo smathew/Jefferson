@@ -1,0 +1,191 @@
+<div id="main_content" class="clearfix"> 
+	<% form_for(@memapp) do |f| %>
+		<%= f.error_messages %>
+		<p class="redlarge">Membership Application</p>
+			<div class="membership"><span class="bold">Membership Eligibility</span>
+				<ol>
+					<li>Persons who live, work, worship, or attend school in, and businesses and other legal entities located in Bullitt, Henry, Jefferson, Oldham, Shelby, Spencer and Trimble Counties, Kentucky and Clark and Floyd Counties, Indiana.</li>
+					<li>Spouses of persons who died while within the field of membership of this credit union.</li>
+					<li>Employees of the credit union.</li>
+					<li>Volunteers in the community.</li>
+					<li>Members of the immediate family or household.</li>
+					<li>Organizations of such persons.</li>
+				</ol>	
+             </div>										
+			<table>
+				<tr>
+					<td>Name:</td>
+					<td colspan="6"><%= f.text_field :name, :size => 23 %></td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td colspan="6"><%= f.text_field :address, :size => 23 %></td>
+				</tr>
+				<tr>
+					<td>City:</td>
+					<td><%= f.text_field :city, :size => 23 %>&nbsp;</td>
+					<td>
+						<p>State:</p>
+					</td>
+					<td>
+						<p><%= f.select( :state,
+						{ "Alabama" => "AL", 
+						  "Alaska" => "AK", 
+						  "Arizona" => "AZ", 
+						  "Arkansas" => "AR", 
+						  "California" => "CA", 
+						  "Colorado" => "CO",
+						  "Connecticut" => "CT", 
+						  "Delaware" => "DE", 
+						  "District Of Columbia" => "DC", 
+						  "Florida" => "FL", 
+						  "Georgia" => "GA", 
+						  "Hawaii" => "HI",
+						  "Idaho" => "ID", 
+						  "Illinois" => "IL", 
+						  "Indiana" => "IN", 
+						  "Iowa" => "IO", 
+						  "Kansas" => "KS", 
+						  "Kentucky" => "KY",
+						  "Louisiana" => "LA", 
+						  "Maine" => "ME", 
+						  "Maryland" => "MD", 
+						  "Massachusetts" => "MA", 
+						  "Michigan" => "MI", 
+						  "Minnesota" => "MN",
+						  "Mississippi" => "MS", 
+						  "Missouri" => "MO", 
+						  "Montana" => "MT", 
+						  "Nebraska" => "NE", 
+						  "Nevada" => "NV", 
+						  "New Hampshire" => "NH",
+						  "New Jersey" => "NJ", 
+						  "New Mexico" => "NM", 
+						  "New York" => "NY", 
+						  "North Carolina" => "NC", 
+						  "North Dakota" => "ND", 
+						  "Ohio" => "OH",
+						  "Oklahoma" => "OK", 
+						  "Oregon" => "OR", 
+						  "Pennsylvania" => "PA", 
+						  "Rhode Island" => "RI", 
+						  "South Carolina" => "SC", 
+						  "South Dakota" => "SD",
+						  "Tennessee" => "TN", 
+						  "Texas" => "TX", 
+						  "Utah" => "UT", 
+						  "Vermont" => "VT", 
+						  "Virginia" => "VA", 
+						  "Washington" => "WA",
+						  "West Virginia" => "WV",
+						  "Wisconsin" => "WI",
+						  "Wyoming" => "WY"
+						 }) %></td>
+					<td>Zip:</td>
+					<td colspan="2"><%= f.text_field :zip, :size => 15, :maxlength => 5 %></td>
+				</tr>
+				<tr>
+					<td>Employer:</td>
+					<td><%= f.text_field :employer, :size => 23 %></td>
+					<td colspan="4">Position:</td>
+					<td><%= f.text_field :position,:size => 15 %></td>
+				</tr>
+				<tr>
+					<td>Home Phone(XXX-XXX-XXXX):</td>
+					<td><%= f.text_field :home_phone,:size => 23, :maxlength => 12 %></td>
+					<td colspan="4">Work Phone(XXX-XXX-XXXX):</td>
+					<td><%= f.text_field :work_phone,:size => 15, :maxlength => 12 %></td>
+				</tr>
+				<tr>
+					<td>Soc. Sec. No(XXX-XX-XXXX):</td>
+					<td><%= f.text_field :ssn,:size => 23, :maxlength => 11 %></td>
+					<td colspan="4">Birth Date(MM/DD/YYYY):</td>
+					<td><%= f.text_field :date_of_birth,:size => 15, :maxlength => 10 %></td>
+				</tr>
+				<tr>
+					<td>Relative's Name:</td>
+					<td><%= f.text_field :relatives_name,:size => 23 %></td>
+					<td colspan="4">Best time to call:</td>
+					<td><%= f.text_field :best_time_to_Call,:size => 15 %></td>
+				</tr>
+				<tr>
+					<td colspan="7" height="25"><p>How are you eligible?&nbsp; 
+						<%= f.radio_button("eligibility", "Reside") %>Reside
+					    <%= f.radio_button("eligibility", "Employed") %>Employed
+					    <%= f.radio_button("eligibility", "Student") %>Student
+					    <%= f.radio_button("eligibility", "Volunteer") %>Volunteer
+					    <%= f.radio_button("eligibility", "Immediate Family") %>Immediate Family
+					    <%= f.radio_button("eligibility", "Household") %>Household</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="7">
+						<p>If Student, name of school you attend: <%= f.text_field :school_name, :size=>25 %></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="7">
+					<p> If Volunteer, name of organization where you volunteer:<%= f.text_field :organization_of_volunteer, :size=>25 %></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="7">
+					<p> If eligible as a family member or household member, list the current member's name:  <%= f.text_field :current_members_name, :size=>25 %></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="7" height="25">
+						<p>Which County do you live in?</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="7">
+	                  <table border="0" width="380">
+						<tr>
+							<td>
+							<%= f.radio_button("county_of_residence", "Jefferson") %></td>
+					        <td>Jefferson</td>
+					         <td><%= f.radio_button("county_of_residence", "Bullitt") %></td>
+					         <td>Bullitt</td>
+					         <td><%= f.radio_button("county_of_residence", "Spencer") %></td>
+					         <td>Spencer</td>
+					    </tr>
+						<tr>
+							<td><%= f.radio_button("county_of_residence", "Shelby") %></td>
+					        <td>Shelby</td>
+	                      <td><%= f.radio_button("county_of_residence", "Oldham") %></td>
+					      <td>Oldham</td>
+						  <td><%= f.radio_button("county_of_residence", "Henry") %></td>
+					      <td>Henry</td>
+					    </tr>
+						<tr>
+					      <td><%= f.radio_button("county_of_residence", "Trimble") %></td>
+					      <td>Trimble</td>
+	                      <td><%= f.radio_button("county_of_residence", "Clark") %></td>
+					      <td>Clark</td>
+						  <td><%= f.radio_button("county_of_residence", "Floyd") %></td>
+					      <td>Floyd</td>
+					    </tr>
+					  </table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="7" height="25">
+						<p>Are you a U.S. Citizen? <%= f.radio_button("us_citizen", "yes") %>Yes
+					           <%= f.radio_button("us_citizen", "no") %>No</p>
+					</td>
+				</tr>
+			</table>
+
+            <table>
+				<tr>
+					<td><b>NOTE:</b> Membership requirements are as follows. You must make and maintain a $25.00 minimum deposit in your savings account (S-1) and pay a one time $5.00 membership fee. Staff will contact you to complete the enrollment and make arrangements for documents to be signed and the necessary deposit to be made. Membership and services will not be available until all of the above has been completed.</td>
+				</tr>
+			</table>
+			<p align="center"><%= f.submit 'Submit Application' %>
+			</p>
+		</td>
+	</tr>
+</table>
+	<% end %>
+</div>

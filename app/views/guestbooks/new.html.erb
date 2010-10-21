@@ -1,0 +1,57 @@
+<div id="main_content" class="clearfix">  
+	<% form_for(@guestbook) do |f| %>
+		<%= f.error_messages %>
+		<p class="redlarge">Sign Our Guestbook</p>
+			<table class="gbook" style="background-color: #e1e1e1">
+				<tr>
+					<td align="right"><label for="firstname">First name:</label></td>
+					<td><%= f.text_field :first_name, :size => 25 %></td>
+				</tr>
+				<tr>
+					<td align="right"><label for="lastname">Last name:</label></td>
+					<td><%= f.text_field :last_name, :size => 25 %></td>
+				</tr>
+				<tr>
+					<td align="right"><label for="email">Email Address:</label></td>
+					<td><%= f.text_field :email_address, :size => 25 %></td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2">
+					Are you currently a member of JCFCU?
+					<label for="memberyes">YES</label><%= f.radio_button("JCFCU_member", "yes") %>
+					<label for="memberno">NO</label><%= f.radio_button("JCFCU_member", "no") %>
+					</td>
+				</tr>
+				<tr>
+					<td align="right">
+						<label for="system">Your system:</label>
+					</td>
+					<td><%= f.select( :your_system,
+						{ "Windows 3.x" => "Windows 3.x", 
+						  "UNIX type" => "UNIX type", 
+						  "Windows 98" => "Windows 98",  
+						  "Windows 2000" => "Windows 2000", 
+						  "Windows NT" => "Windows NT", 
+						  "Windows ME" => "Windows ME",
+						  "Windows XP" => "Windows XP", 
+						  "Windows Vista" => "Windows Vista", 
+						  "Windows 7" => "Windows 7", 
+						  "OS/2" => "OS/2", 
+						  "Macintosh" => "Macintosh", 
+						  "Other" => "Other"
+						 }) %>
+					</td>
+				</tr>
+				<tr>
+					<td align="left" colspan="2"><label for="comments" class="txtmed">Comments:</label></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><%= f.text_area :comments, :rows=>5, :cols=> 55 %></td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2"><%= f.submit 'Sign Guestbook' %></td>
+				</tr>
+			</table>
+	<% end %>
+</div>
+

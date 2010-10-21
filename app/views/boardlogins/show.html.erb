@@ -1,0 +1,49 @@
+<% if @boardlogin.userid == 'official' and @boardlogin.password == 'jcfop14' %>
+<p style="color: green", align=center><%= flash[:notice] %></p>
+<div id="main_content" class="clearfix">
+    	<div id="main_content_inner">
+        <h2>JCFCU Board Member Portal</h2>
+        <div id="board" class="clearfix">
+		<ul>
+        	<li class="boardhead">2010</li>
+            <li><%= link_to "January", root_path + "board/Board-Packet_1001.pdf" %></li>
+            <li><%= link_to "February", root_path + "board/Board-Packet_1002.pdf" %></li>
+            <li><%= link_to "March", root_path + "board/Board-Packet_1003.pdf" %></li>
+            <li><%= link_to "April", root_path + "board/Board-Packet_1004.pdf" %></li>
+            <li><%= link_to "May", root_path + "board/Board-Packet_1005.pdf" %></li>
+            <li><%= link_to "June", root_path + "board/Board-Packet_1006.pdf" %></li>
+            <li><%= link_to "July", root_path + "board/Board-Packet_1007.pdf" %></li>
+            <li><%= link_to "August", root_path + "board/Board-Packet_1008.pdf" %></li>
+        </ul>
+       
+        <ul>
+        	<li class="boardhead">2009</li>
+            <li><%= link_to "January", root_path + "board/Board-Packet_0901.pdf" %></li>
+            <li><%= link_to "February", root_path + "board/Board-Packet_0902.pdf" %></li>
+            <li><%= link_to "March", root_path + "board/Board-Packet_0903.pdf" %></li>
+            <li><%= link_to "April", root_path + "board/Board-Packet_0904.pdf" %></li>
+            <li><%= link_to "May", root_path + "board/Board-Packet_0905.pdf" %></li>
+            <li><%= link_to "June", root_path + "board/Board-Packet_0906.pdf" %></li>
+            <li><%= link_to "July", root_path + "board/Board-Packet_0907.pdf" %></li>
+            <li><%= link_to "August", root_path + "board/Board-Packet_0908.pdf" %></li>
+            <li><%= link_to "September", root_path + "board/Board-Packet_0909.pdf" %></li>
+            <li><%= link_to "October", root_path + "board/Board-Packet_0910.pdf" %></li>
+            <li><%= link_to "November", root_path + "board/Board-Packet_0911.pdf" %></li>
+            <li><%= link_to "December", root_path + "board/Board-Packet_0912.pdf" %></li>
+        </ul>
+
+        <ul>
+        	<li class="boardhead">2008</li>
+            <li><%= link_to "November", root_path + "board/Board-Packet_0811.pdf" %></li>
+            <li><%= link_to "December", root_path + "board/Board-Packet_0812.pdf" %></li>
+        </ul>  
+        <ul>
+        	<li class="boardhead">Board Committee List</li>
+            <li><%= link_to "Board Committee List", root_path + "board/boardcommittee.pdf", :rel=>"external" %></li>
+        </ul>    
+      </div>    
+	</div>
+</div>
+<% else %>
+	<p align="center"> You need to <%= link_to "login", new_boardlogin_path %> to access this page.</p>
+<% end %>

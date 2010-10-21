@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>GUESTBOOK JCFCU</title>
+	<style type="text/css">
+		.request { width: 650px; margin: 0; padding: 0; font-family:Arial, Helvetica, sans-serif; font-size: .8em; border: 1px solid #890202; border-collapse: collapse;}
+		.first {font-weight: bold; height: 20px; margin: 0;  width: 300px;}
+		table {border: 1px solid #890202;}			
+		td {padding: 10px; margin: 0; border-bottom: 1px solid #890202;}
+		th {width: 100%; background-color: #990033; color: #fff; text-transform: uppercase; font-size: 1.2em; padding: 5px; text-align: left;}
+		.first {background-color: #ccc; color: #890202; margin: 0; padding: 0;}			
+	</style>			
+	</head>
+	<body>
+		<table>
+		<tr>
+			<th colspan="2">GUESTBOOK ENTRY</th>
+		<tr>
+			<td>Date Submitted :</td>
+			<td><%= Time.now.strftime("%A, %B %d, %Y, %H:%M:%S") %></td></tr>
+		<tr><td>Name : </td><td><%= @app.first_name %> <%= @app.last_name %></td></tr>
+		<tr><td>Email : </td><td><%= @app.email_address %></td></tr>
+		<tr><td>System : </td><td><%= @app.your_system %></td></tr>
+		<tr><td>JCFCU Membership : </td><td><%= @app.JCFCU_member %></td></tr>
+		<tr><td>Comments : </td><td><%= @app.comments %></td></tr>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

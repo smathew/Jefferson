@@ -1,0 +1,55 @@
+<%= javascript_include_tag "style" %>
+<%= javascript_include_tag "pad" %>
+<%= javascript_include_tag "read" %>
+    <% form_tag do %>
+        <table class="calcresults">
+            <tr> 
+            <th colspan="2">Credit Card Payoff Calculator</th>
+            </tr>
+            <tr>
+                <td colspan="2"><p class="centertext"><strong>Results</strong></p></td>
+            </tr>
+            <tr> 
+                <td>Monthly Payment: </td>
+                <td><script type="text/javascript">
+					var E = getValue(passed,'MonthlyPayment');
+					if (E < 0) { E = 0 }
+					document.write(currencyPad(E));
+					</script></td>
+            </tr>
+            <tr> 
+                <td>Credit Card Balance:</td>
+                <td><script type="text/javascript">
+					var A = getValue(passed,'CreditCardBalance');
+					if (A < 0) { A = 0 }
+					document.write(currencyPad(A));
+					</script></td>
+            </tr>
+            <tr> 
+                <td>Interest Rate: </td>
+                <td><script type="text/javascript">
+                    var B = getValue(passed,'Interestrate');
+                    if (B < 0) { B = 0 }
+                    document.write(roundingPad((B * 100.00)/100)+"%");
+                    </script></td>
+            </tr>
+            <tr> 
+                <td>Total Months to Pay Off Credit Card:</td>
+                <td><%= javascript_include_tag "ccpcc" %></td>
+            </tr>
+            <tr> 
+                <td>Total Interest Paid:</td>
+                <td><script type="text/javascript">
+                    if (I >= 3600)
+                    {
+                    document.write("Since the credit card balance will never be paid off, the interest paid was not calculated.");
+                    } else {
+                    document.write(currencyPad(W));
+                    }
+                    </script></td>
+            </tr>
+            <tr>
+                <td colspan="2"><p class="centertext"><%= javascript_include_tag "endb" %></p></td>
+            </tr>
+        </table>
+    <% end %>

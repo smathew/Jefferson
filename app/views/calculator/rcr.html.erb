@@ -1,0 +1,134 @@
+<%= javascript_include_tag "style" %>
+<%= javascript_include_tag "pad" %>
+<%= javascript_include_tag "read" %>
+    <% form_tag do %>
+        <table class="calcresults">
+            <tr> 
+                <th colspan="2">Retirement Calculator
+                Results
+                </th>
+            </tr>
+            <tr> 
+                <td>
+					<script type="text/javascript">
+                    var SO = getValue(passed,'calculate_option');
+                    if (SO == 0) {
+                    document.write("Beginning Balance:");
+                    }
+                    if (SO == 1) {
+                    document.write("Beginning Balance:");
+                    }
+                    if (SO == 2) {
+                    document.write("Annual Contribution:");
+                    }
+                    </script>
+                </td>
+                <td>
+					<script type="text/javascript">
+                    var A = getValue(passed,'Principal');
+                    var C = getValue(passed,'AnnualContribution');
+                    if (SO == 0) {
+                    document.write(currencyPad(A));
+                    }
+                    if (SO == 1) {
+                    document.write(currencyPad(A));
+                    }
+                    if (SO == 2) {
+                    document.write(currencyPad(C));
+                    }
+                    </script>
+                </td>
+            </tr>
+            <tr> 
+                <td>Interest Rate:</td>
+                <td>
+                    <script type="text/javascript">
+                    var B = getValue(passed,'Interestrate');
+                    if (B < 0) { B = 0 }
+                    document.write(roundingPad((B * 100.00)/100)+"%");
+                    </script>
+                </td>
+            </tr>
+            <tr> 
+                <td>
+                <script type="text/javascript">
+                    var SO = getValue(passed,'calculate_option');
+                    if (SO == 0) {
+                    document.write("Annual Contribution:");
+                    }
+                    if (SO == 1) {
+                    document.write("Annual Income:");
+                    }
+                    if (SO == 2) {
+                    document.write("Annual Income:");
+                    }
+                    </script>
+                </td>
+                <td>
+					<%= javascript_include_tag "rcc" %>
+                </td>
+            </tr>
+            <tr> 
+                <td>Number of Years Contributing:</td>
+                <td>
+                    <script type="text/javascript">
+                    document.write(integerPad(IA));
+                    </script>
+                </td>
+            </tr>
+            <tr> 
+                <td>Number of Years Withdrawing:</td>
+                <td>
+					<script type="text/javascript">
+                    document.write(integerPad(DA));
+                    </script>
+                </td>
+            </tr>
+            <tr> 
+                <td>Inflation Rate:</td>
+                <td>
+                    <script type="text/javascript">
+                    document.write(""+roundingPad((H*100.00)/100)+"%");
+                    </script>
+                </td>
+            </tr>
+            <tr> 
+                <td>
+					<script type="text/javascript">
+                    var SO = getValue(passed,'calculate_option');
+                    if (SO == 0) {
+                    document.write("Annual Income:");
+                    }
+                    if (SO == 1) {
+                    document.write("Annual Contribution:");
+                    }
+                    if (SO == 2) {
+                    document.write("Beginning Balance:");
+                    }
+                    </script>
+                </td>
+                <td>
+					<script type="text/javascript">
+                    if (SO == 0) {
+                    document.write(currencyPad(DD));
+                    }
+                    if (SO == 1) {
+                    document.write(currencyPad(Z));
+                    }
+                    if (SO == 2) {
+                    document.write(currencyPad(Z));
+                    }
+                    </script>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><%= javascript_include_tag "rca" %>
+                </script>
+                    <span class="smallprint">PLEASE NOTE: This deposit schedule
+                    assumes that your retirement income <br>
+                    keeps pace with inflation.
+                    Note that income is in future dollars.</span><br />
+        <%= javascript_include_tag "endb" %></td>
+            </tr>
+        </table>
+<% end %>

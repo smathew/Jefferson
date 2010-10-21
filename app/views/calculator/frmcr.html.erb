@@ -1,0 +1,64 @@
+<%= javascript_include_tag "style" %>
+<%= javascript_include_tag "pad" %>
+<%= javascript_include_tag "read" %>
+    <script type="text/javascript">
+		var ZZZ = getValue(passed, 'calculate_option');
+		if (ZZZ == 1) {
+		if (getValue(passed, 'NumberOfMonths') > 180) {;
+		}
+		}
+	</script>
+    <% form_tag do %>
+        <table class="calcresults">
+            <tr> 
+            	<th colspan="2">Fixed Rate Mortgage Calculator 
+            </tr>
+            <tr>
+            	<td colspan="2"><p class="centertext"><strong>Results</strong></p></td>
+            </tr>
+            <tr> 
+                <td>Loan Amount:</td>
+                <td><script type="text/javascript">
+                var A = getValue(passed,'LoanAmount');
+                if (A < 0) { A = 0 }
+                document.write(currencyPad(A));
+                </script></td>
+            </tr>
+            <tr> 
+                <td>Interest Rate:</td>
+                <td><script type="text/javascript">
+						var B = getValue(passed,'Interestrate');
+						if (B < 0) { B = 0 }
+						document.write(roundingPad((B * 100.00)/100)+"%");
+					</script></td>
+            </tr>
+            <tr> 
+                <td>Number of Months to Pay 
+                on Loan:</td>
+                <td><%= javascript_include_tag "frmcc" %></td>
+            </tr>
+            <tr> 
+                <td>Additional Principal 
+                Per Month:</td>
+                <td><script type="text/javascript">
+						document.write(currencyPad(D));
+					</script></td>
+            </tr>
+            <tr> 
+                <td>Monthly Payment:</td>
+                <td><script type="text/javascript">
+						document.write(currencyPad(PMT));
+					</script></td>
+            </tr>
+            <tr> 
+                <td>Total Interest Paid on 
+                Loan:</td>
+                <td><script type="text/javascript">
+						document.write(currencyPad(TOTINT));
+					</script></td>
+            </tr>
+            <tr>
+                <td colspan="2"><%= javascript_include_tag "frmca" %><%= javascript_include_tag "endb" %></td>
+            </tr>
+        </table>
+    <% end %>

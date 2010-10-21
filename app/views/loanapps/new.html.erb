@@ -1,0 +1,281 @@
+<div id="main_content" class="clearfix">
+	<div id="main_content_inner">
+		<% form_for(@loanapp) do |f| %>
+			<%= f.error_messages %>
+				<p class="redlarge">Loan Application</p>
+				<table>
+					<tr>
+						<td>Type of Loan:</td>
+						<td><%= f.select( :loan_type,
+						{ "New Vehicle" => "New Vehicle", 
+						  "Used Vehicle" => "Used Vehicle", 
+						  "Recreational Vehicle" => "Recreational Vehicle", 
+						  "Signature Loan" => "Signature Loan", 
+						  "Line of Credit/Unsecured" => "Line of Credit/Unsecured",
+						  "Line of Credit/Secured/Real Estate" => "Line of Credit/Secured/Real Estate",
+						  "Share Secured Loan" => "Share Secured Loan"
+						 }) %></td>
+					</tr>
+					<tr>
+						<td>Amount Requested $</td>
+					    <td><%= f.text_field :amount_requested, :size => 32 %></td>
+					</tr>
+					<tr>
+						<td>Preferred Closing Location:</td>
+					    <td><%= f.select( :preferred_closing_location,
+						{ "9600 Ormsby Station Road" => "9600 Ormsby Station Road", 
+						  "6446 Outer Loop Road, Highview Branch" => "6446 Outer Loop Road, Highview Branch", 
+						  "Suite 104 - 517 Court Place, Downtown Branch" => "Suite 104 - 517 Court Place, Downtown Branch", 
+						  "Suite 105 - 810 Barrett Avenue, Urban Branch" => "Suite 105 - 810 Barrett Avenue, Urban Branch", 
+						  "Room 157  1201 East 10th Street, Indiana Branch" => "Room 157  1201 East 10th Street, Indiana Branch"
+						 }) %></td>
+					</tr>
+				</table>
+
+				<p class="redlarge">Applicant Information</p>
+				<table class="apps">
+					<tr>
+						<td>Name</td>
+						<td colspan="2"><%= f.text_field :applicant_name, :size => 20 %></td>
+					    <td>Account #</td>
+					    <td><%= f.text_field :applicant_account_number, :size => 15 %></td>
+					</tr>
+					<tr>
+						<td>Address</td>
+						<td colspan="2"><%= f.text_field :applicant_address, :size => 20 %></td>
+					    <td>Home Phone<br />XXX-XXX-XXXX</td>
+					    <td><%= f.text_field :applicant_home_phone, :size => 15, :maxlength => 12 %></td>
+					</tr>
+					<tr>
+						<td></td>
+					    <td></td>
+					    <td></td>
+					    <td>Cell Phone<br />XXX-XXX-XXXX</td>
+					    <td><%= f.text_field :applicant_cell_phone, :size => 15, :maxlength => 12 %></td>
+					</tr>
+					<tr>
+						<td>City/State</td>
+					    <td><%= f.text_field :applicant_city, :size => 20 %>&nbsp;</td>
+					    <td><%= f.select( :applicant_state,
+						{ "Alabama" => "AL", 
+						  "Alaska" => "AK", 
+						  "Arizona" => "AZ", 
+						  "Arkansas" => "AR", 
+						  "California" => "CA", 
+						  "Colorado" => "CO",
+						  "Connecticut" => "CT", 
+						  "Delaware" => "DE", 
+						  "District Of Columbia" => "DC", 
+						  "Florida" => "FL", 
+						  "Georgia" => "GA", 
+						  "Hawaii" => "HI",
+						  "Idaho" => "ID", 
+						  "Illinois" => "IL", 
+						  "Indiana" => "IN", 
+						  "Iowa" => "IO", 
+						  "Kansas" => "KS", 
+						  "Kentucky" => "KY",
+						  "Louisiana" => "LA", 
+						  "Maine" => "ME", 
+						  "Maryland" => "MD", 
+						  "Massachusetts" => "MA", 
+						  "Michigan" => "MI", 
+						  "Minnesota" => "MN",
+						  "Mississippi" => "MS", 
+						  "Missouri" => "MO", 
+						  "Montana" => "MT", 
+						  "Nebraska" => "NE", 
+						  "Nevada" => "NV", 
+						  "New Hampshire" => "NH",
+						  "New Jersey" => "NJ", 
+						  "New Mexico" => "NM", 
+						  "New York" => "NY", 
+						  "North Carolina" => "NC", 
+						  "North Dakota" => "ND", 
+						  "Ohio" => "OH",
+						  "Oklahoma" => "OK", 
+						  "Oregon" => "OR", 
+						  "Pennsylvania" => "PA", 
+						  "Rhode Island" => "RI", 
+						  "South Carolina" => "SC", 
+						  "South Dakota" => "SD",
+						  "Tennessee" => "TN", 
+						  "Texas" => "TX", 
+						  "Utah" => "UT", 
+						  "Vermont" => "VT", 
+						  "Virginia" => "VA", 
+						  "Washington" => "WA",
+						  "West Virginia" => "WV",
+						  "Wisconsin" => "WI",
+						  "Wyoming" => "WY"
+						 }) %></td>
+					    <td>Zip:</td>
+					    <td><%= f.text_field :applicant_zip, :size => 15, :maxlength => 5 %></td>
+					</tr>
+					<tr>
+						<td>E-Mail</td>
+						<td colspan="2"><%= f.text_field :applicant_email_address, :size => 20 %></td>
+					    <td>Time to Call:</td>
+					    <td><%= f.text_field :applicant_time_to_call, :size => 15 %></td>
+					</tr>
+					<tr>
+						<td>Employer</td>
+						<td colspan="2"><%= f.text_field :applicant_employer, :size => 20 %></td>
+					    <td>Hire Date:</td>
+					    <td><%= f.text_field :applicant_hire_date, :size => 15 %></td>
+					</tr>
+					<tr>
+						<td>Employer Address</td>
+					    <td colspan="2"><%= f.text_field :applicant_employer_address, :size => 20 %></td>
+					    <td>Work Phone<br />XXX-XXX-XXXX</td>
+					    <td><%= f.text_field :applicant_work_phone, :size => 15, :maxlength => 12 %></td>
+					</tr>
+					<tr>
+						<td>Monthly Salary</td>
+					    <td colspan="2"><%= f.text_field :applicant_monthly_salary, :size => 20 %></td>
+					    <td>Social Sec #<br />XXX-XX-XXXX</td>
+					    <td><%= f.text_field :applicant_ssn, :size => 15, :maxlength => 11 %></td>
+					</tr>
+					<tr>
+						<td>Other Income Amt</td>
+					    <td colspan="2"><%= f.text_field :applicant_other_income, :size => 20 %></td>
+					    <td>Other Income Source</td>
+					    <td><%= f.text_field :applicant_other_income_source, :size => 15 %></td>
+					</tr>
+					<tr>
+						<td>Mortgage/Rent Pmt</td>
+						<td colspan="2"><%= f.text_field :applicant_mortgage_rent_payment, :size => 20 %></td>
+					    <td>Birth Date:</td>
+					    <td><%= f.text_field :applicant_date_of_birth, :size => 15, :maxlength => 10 %></td>
+					</tr>
+				</table>
+
+				<p>Alimony, child support, or separate maintenance income need not be revealed if you do not wish to have it considered as a basis for repaying this obligation.</p>
+				<p class="redlarge">Co-applicant Information</p>
+				<table border="0">
+					<tr>
+						<td>Name</td>
+						<td colspan="2"><%= f.text_field :coapplicant_name, :size => 20 %></td>
+					    <td>Account #</td>
+					    <td><%= f.text_field :coapplicant_account_number, :size => 15 %></td>
+					</tr>
+					<tr>
+						<td>Address</td>
+					    <td colspan="2"><%= f.text_field :coapplicant_address, :size => 20 %></td>
+					    <td>Home Phone<br />XXX-XXX-XXXX</td>
+					    <td><%= f.text_field :coapplicant_home_phone, :size => 15, :maxlength => 12 %></td>
+					</tr>
+					<tr>
+						<td></td>
+					    <td></td>
+					    <td></td>
+					    <td>Cell Phone<br />XXX-XXX-XXXX</td>
+					    <td><%= f.text_field :coapplicant_cell_phone, :size => 15, :maxlength => 12 %></td>
+					</tr>
+					<tr>
+						<td>City/State</td>
+					    <td><%= f.text_field :coapplicant_city, :size => 20 %>&nbsp;</td>
+					    <td><%= f.select( :coapplicant_state,
+						{ "Alabama" => "AL", 
+						  "Alaska" => "AK", 
+						  "Arizona" => "AZ", 
+						  "Arkansas" => "AR", 
+						  "California" => "CA", 
+						  "Colorado" => "CO",
+						  "Connecticut" => "CT", 
+						  "Delaware" => "DE", 
+						  "District Of Columbia" => "DC", 
+						  "Florida" => "FL", 
+						  "Georgia" => "GA", 
+						  "Hawaii" => "HI",
+						  "Idaho" => "ID", 
+						  "Illinois" => "IL", 
+						  "Indiana" => "IN", 
+						  "Iowa" => "IO", 
+						  "Kansas" => "KS", 
+						  "Kentucky" => "KY",
+						  "Louisiana" => "LA", 
+						  "Maine" => "ME", 
+						  "Maryland" => "MD", 
+						  "Massachusetts" => "MA", 
+						  "Michigan" => "MI", 
+						  "Minnesota" => "MN",
+						  "Mississippi" => "MS", 
+						  "Missouri" => "MO", 
+						  "Montana" => "MT", 
+						  "Nebraska" => "NE", 
+						  "Nevada" => "NV", 
+						  "New Hampshire" => "NH",
+						  "New Jersey" => "NJ", 
+						  "New Mexico" => "NM", 
+						  "New York" => "NY", 
+						  "North Carolina" => "NC", 
+						  "North Dakota" => "ND", 
+						  "Ohio" => "OH",
+						  "Oklahoma" => "OK", 
+						  "Oregon" => "OR", 
+						  "Pennsylvania" => "PA", 
+						  "Rhode Island" => "RI", 
+						  "South Carolina" => "SC", 
+						  "South Dakota" => "SD",
+						  "Tennessee" => "TN", 
+						  "Texas" => "TX", 
+						  "Utah" => "UT", 
+						  "Vermont" => "VT", 
+						  "Virginia" => "VA", 
+						  "Washington" => "WA",
+						  "West Virginia" => "WV",
+						  "Wisconsin" => "WI",
+						  "Wyoming" => "WY"
+						 }) %></td>
+					     <td>Zip:</td>
+					     <td><%= f.text_field :coapplicant_zip, :size => 15, :maxlength => 5 %></td>
+					</tr>
+					<tr>
+						<td>E-Mail</td>
+						<td colspan="2"><%= f.text_field :coapplicant_email_address, :size => 20 %></td>
+					    <td>Time to Call:</td>
+					    <td><%= f.text_field :coapplicant_time_to_call, :size => 15 %></td>
+					</tr>
+					<tr>
+						<td>Employer</td>
+					    <td colspan="2"><%= f.text_field :coapplicant_employer, :size => 20 %></td>
+					    <td>Hire Date:</td>
+					    <td><%= f.text_field :coapplicant_hire_date, :size => 15 %></td>
+					</tr>
+					<tr>
+						<td>Employer Address</td>
+						<td colspan="2"><%= f.text_field :coapplicant_employer_address, :size => 20 %></td>
+					    <td>Work Phone<br />XXX-XXX-XXXX</td>
+					    <td><%= f.text_field :coapplicant_work_phone, :size => 15, :maxlength => 12 %></td>
+					</tr>
+					<tr>
+						<td>Monthly Salary</td>
+						<td colspan="2"><%= f.text_field :coapplicant_monthly_salary, :size => 20 %></td>
+					    <td>Social Sec #<br />XXX-XX-XXXX</td>
+					    <td><%= f.text_field :coapplicant_ssn, :size => 15, :maxlength => 11 %></td>
+					</tr>
+					<tr>
+						<td>Other Income Amt</td>
+					    <td colspan="2"><%= f.text_field :coapplicant_other_income, :size => 20 %></td>
+					    <td>Other Income Source</td>
+					    <td><%= f.text_field :coapplicant_other_income_source, :size => 15 %></td>
+					</tr>
+					<tr>
+						<td>Mortgage/Rent Pmt</td>
+					    <td colspan="2"><%= f.text_field :coapplicant_mortgage_rent_payment, :size => 20 %></td>
+					    <td>Birth Date:</td>
+					    <td><%= f.text_field :coapplicant_date_of_birth, :size => 15, :maxlength => 10 %></td>
+					</tr>
+				</table>
+				</center>
+				<p>Alimony, child support, or separate maintenance income need not be revealed if you do not wish to have it considered as a basis for repaying this obligation.
+				</p>
+				<p>Are you interested in protecting your payments with credit life or disability insurance? YES <%= f.radio_button("credit_life_or_disability_insurance", "yes") %>
+					            NO <%= f.radio_button("credit_life_or_disability_insurance", "no") %>
+				</p>
+				<p>By submitting this secure application, you authorize JCFCU to gather whatever credit and employment information we consider appropriate, including information from various credit reporting agencies.</p>
+				<p align="center"><%= f.submit 'Submit Application' %></p>
+		<% end %>
+	</div>
+</div>

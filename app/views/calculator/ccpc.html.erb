@@ -1,0 +1,23 @@
+<%= javascript_include_tag "ccpcv" %>
+	<% form_tag(ccpcr_path, :method => :get) do %>
+        <table class="calculator">
+            <tr>
+            	<th colspan="2">Credit Card Payoff Calculator</th>
+            </tr>
+            <tr>
+                <td>Monthly Payment:</td>
+                <td><input onFocus=select(); onBlur = checkMP(this.form); name = MonthlyPayment value="100" /></td>
+            </tr>
+            <tr>
+                <td>Credit Card Balance:</td>
+                <td><input onFocus=select(); onBlur = checkCCB(this.form); name = CreditCardBalance value="2500" /></td>
+            </tr>
+            <tr>
+                <td>Interest Rate:</td>
+                <td><input onFocus=select(); onBlur = checkIR(this.form); name = Interestrate value="19.8" /></td>
+            </tr>
+            <tr>
+            	<td colspan="2"><p class="centertext"><%= javascript_include_tag "enda" %></p></td>
+            </tr>
+        </table>    	
+    <% end %>

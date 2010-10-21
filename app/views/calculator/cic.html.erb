@@ -1,0 +1,69 @@
+<%= javascript_include_tag "cicv" %>
+	<% form_tag(cicr_path, :method => :get) do %>
+        <table class="calculator">
+            <tr>
+                <th colspan="2">Compound Interest Calculator
+                </th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <input type="radio" name=calculate_option value="0" checked />
+                Calculate the Compounded Amount<br />
+                (Hint: Enter the opening balance in the "Principal" box
+                below<br />
+                to calculate what the compounded amount will be.)<br />
+                <br />
+                <hr />
+                <input type="radio" name=calculate_option value="1" />
+                Calculate the Opening Balance<br />
+                (Hint: Enter the compounded amount in the "Principal" box
+                below<br />
+                to calculate the opening balance you need to obtain your goal.)<br />
+                <br />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <input type="radio" name=year_option value="0" />
+                Base Calculations on a 360-Day Year<br />
+                <input type="radio" name=year_option value="1" checked />
+                Base Calculations on a 365-Day Year<br />
+                </td>
+            </tr>
+            <tr>
+                <td>Principal:</td>
+                <td><input type=text onFocus = select(); onBlur=checkPR(this.form); name="Principal" value="10000" /></td>
+            </tr>
+            <tr>
+                <td>Nominal Interest Rate:
+                </td>
+                <td><input type=text onFocus = select(); onBlur = checkIR(this.form); name="Interestrate" value="8" /></td>
+            </tr>
+            <tr>
+                <td>Total Number of Days:</td>
+                <td><input type=text onFocus = select(); onBlur = checkNP(this.form); name="NumberOfPeriods" value="90" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <input type="radio" name="compound_option" value="0" />
+                Compound on a Daily Basis<br />
+                <input type="radio" name="compound_option" value="1" />
+                Compound on a Weekly Basis<br />
+                <input type="radio" name="compound_option" value="2" />
+                Compound on a Bi-Weekly Basis<br />
+                <input type="radio" name="compound_option" value="3" />
+                Compound on a Semi-Monthly Basis<br />
+                <input type="radio" name="compound_option" value="4" checked />
+                Compound on a Monthly Basis<br />
+                <input type="radio" name="compound_option" value="5" />
+                Compound on a Quarterly Basis<br />
+                <input type="radio" name="compound_option" value="6" />
+                Compound on a Semi-Annual Basis<br />
+                <input type="radio" name="compound_option" value="7" />
+                Compound on an Annual Basis<br /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><p class="centertext"><%= javascript_include_tag "enda" %></p></td>
+            </tr>          
+        </table>
+    <% end %>

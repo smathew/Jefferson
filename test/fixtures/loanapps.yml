@@ -1,0 +1,145 @@
+# == Schema Information
+# Schema version: 20101020132510
+#
+# Table name: loanapps
+#
+#  id                                  :integer         not null, primary key
+#  loan_type                           :string(255)
+#  amount_requested                    :string(255)
+#  preferred_closing_location          :string(255)
+#  applicant_name                      :string(255)
+#  applicant_account_number            :string(255)
+#  applicant_address                   :string(255)
+#  applicant_city                      :string(255)
+#  applicant_state                     :string(255)
+#  applicant_zip                       :integer
+#  applicant_home_phone                :string(255)
+#  applicant_cell_phone                :string(255)
+#  applicant_time_to_call              :string(255)
+#  applicant_email_address             :string(255)
+#  applicant_employer                  :string(255)
+#  applicant_hire_date                 :string(255)
+#  applicant_employer_address          :string(255)
+#  applicant_work_phone                :string(255)
+#  applicant_monthly_salary            :string(255)
+#  applicant_ssn                       :string(255)
+#  applicant_date_of_birth             :string(255)
+#  applicant_other_income              :string(255)
+#  applicant_other_income_source       :string(255)
+#  applicant_mortgage_rent_payment     :string(255)
+#  coapplicant_name                    :string(255)
+#  coapplicant_account_number          :string(255)
+#  coapplicant_address                 :string(255)
+#  coapplicant_city                    :string(255)
+#  coapplicant_state                   :string(255)
+#  coapplicant_zip                     :integer
+#  coapplicant_home_phone              :string(255)
+#  coapplicant_cell_phone              :string(255)
+#  coapplicant_time_to_call            :string(255)
+#  coapplicant_email_address           :string(255)
+#  coapplicant_employer                :string(255)
+#  coapplicant_hire_date               :string(255)
+#  coapplicant_employer_address        :string(255)
+#  coapplicant_work_phone              :string(255)
+#  coapplicant_monthly_salary          :string(255)
+#  coapplicant_ssn                     :string(255)
+#  coapplicant_date_of_birth           :string(255)
+#  coapplicant_other_income            :string(255)
+#  coapplicant_other_income_source     :string(255)
+#  coapplicant_mortgage_rent_payment   :string(255)
+#  credit_life_or_disability_insurance :string(255)
+#  created_at                          :datetime
+#  updated_at                          :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  loan_type: MyString
+  amount_requested: MyString
+  preferred_closing_location: MyString
+  applicant_name: MyString
+  applicant_account_number: MyString
+  applicant_address: MyString
+  applicant_city: MyString
+  applicant_state: MyString
+  applicant_zip: 1
+  applicant_home_phone: MyString
+  applicant_cell_phone: MyString
+  applicant_time_to_call: MyString
+  applicant_email_address: MyString
+  applicant_employer: MyString
+  applicant_hire_date: MyString
+  applicant_employer_address: MyString
+  applicant_work_phone: MyString
+  applicant_monthly_salary: MyString
+  applicant_ssn: MyString
+  applicant_date_of_birth: MyString
+  applicant_other_income: MyString
+  applicant_other_income_source: MyString
+  applicant_mortgage_rent_payment: MyString
+  coapplicant_name: MyString
+  coapplicant_account_number: MyString
+  coapplicant_address: MyString
+  coapplicant_city: MyString
+  coapplicant_state: MyString
+  coapplicant_zip: 1
+  coapplicant_home_phone: MyString
+  coapplicant_cell_phone: MyString
+  coapplicant_time_to_call: MyString
+  coapplicant_email_address: MyString
+  coapplicant_employer: MyString
+  coapplicant_hire_date: MyString
+  coapplicant_employer_address: MyString
+  coapplicant_work_phone: MyString
+  coapplicant_monthly_salary: MyString
+  coapplicant_ssn: MyString
+  coapplicant_date_of_birth: MyString
+  coapplicant_other_income: MyString
+  coapplicant_other_income_source: MyString
+  coapplicant_mortgage_rent_payment: MyString
+
+two:
+  loan_type: MyString
+  amount_requested: MyString
+  preferred_closing_location: MyString
+  applicant_name: MyString
+  applicant_account_number: MyString
+  applicant_address: MyString
+  applicant_city: MyString
+  applicant_state: MyString
+  applicant_zip: 1
+  applicant_home_phone: MyString
+  applicant_cell_phone: MyString
+  applicant_time_to_call: MyString
+  applicant_email_address: MyString
+  applicant_employer: MyString
+  applicant_hire_date: MyString
+  applicant_employer_address: MyString
+  applicant_work_phone: MyString
+  applicant_monthly_salary: MyString
+  applicant_ssn: MyString
+  applicant_date_of_birth: MyString
+  applicant_other_income: MyString
+  applicant_other_income_source: MyString
+  applicant_mortgage_rent_payment: MyString
+  coapplicant_name: MyString
+  coapplicant_account_number: MyString
+  coapplicant_address: MyString
+  coapplicant_city: MyString
+  coapplicant_state: MyString
+  coapplicant_zip: 1
+  coapplicant_home_phone: MyString
+  coapplicant_cell_phone: MyString
+  coapplicant_time_to_call: MyString
+  coapplicant_email_address: MyString
+  coapplicant_employer: MyString
+  coapplicant_hire_date: MyString
+  coapplicant_employer_address: MyString
+  coapplicant_work_phone: MyString
+  coapplicant_monthly_salary: MyString
+  coapplicant_ssn: MyString
+  coapplicant_date_of_birth: MyString
+  coapplicant_other_income: MyString
+  coapplicant_other_income_source: MyString
+  coapplicant_mortgage_rent_payment: MyString

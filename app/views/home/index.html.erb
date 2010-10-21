@@ -1,0 +1,56 @@
+<div id="main_content" class="clearfix">
+    	<div id="main_left" class="clearfix">
+			<%= render "layouts/quickrates" %>
+           
+            <div class="video">
+                <p>
+                    <object type="application/x-shockwave-flash" data="player.swf" width="256" height="192" id="single1">
+                        <param name="movie" value="player.swf" />
+                        <param name="allowScriptAcess" value="sameDomain" />
+                        <param name="quality" value="best" />
+                        <param name="bgcolor" value="#000000" />
+                        <param name="scale" value="noScale" />
+                        <param name="wmode" value="opaque" />
+                        <param name="salign" value="TL" />
+                        <param name="FlashVars" value="file=commercial2.flv&amp;image=images/preview.jpg&amp;lightcolor=660000&amp;screencolor=ffffff&amp;controlbar=bottom&amp;autostart=false&amp;mute=false&amp;quality=false&amp;stretching=fill" />
+                    </object>
+                </p>
+            </div>
+        </div>
+		
+        <div id="main_right" class="clearfix">
+        <div id="ads">
+        
+        <object type="application/x-shockwave-flash" data="flash/main.swf" width="515" height="210">
+		<param name="movie" value="flash/main.swf" />
+		<param name="wmode" value="opaque" />
+		</object>
+
+        </div>
+            <div class="date">Today's Date is <%= Time.now.strftime("%A, %B %d, %Y") %></div>
+            <div class="maintext clearfix">
+            <h2>Welcome</h2>
+            
+            <p>Welcome to Jefferson County Federal Credit Union. If you haven't already done so, please sign our <%= link_to "guestbook", new_guestbook_path %>. </p>
+            
+            <p>JCFCU is regulated &amp; insured by the National Credit Union
+                Administration, a U.S.Government Agency. </p>
+            <p>Originally chartered in 1969 as a credit union to serve the Jefferson
+                County Police andthen the employees
+                of Jefferson County Government, the Jefferson County Federal
+                Credit Union currentlyserves the employees of the Louisville
+                - Jefferson County Metro Government as well as the employees
+                of over three hundred companies and associations located primarily
+                throughout the Greater Louisville Area. In the summer of 2004
+                membership in Jefferson County Federal Credit Union became open
+                to persons who live, work, worship, or attend school in, and
+                businesses and other legal entities located in Jefferson, Bullitt,
+                Spencer, Shelby, Oldham, Henry or Trimble Counties in Kentucky
+                or Clark or Floyd Counties in Indiana. Additionally spouses of
+                persons who died while within the field of membership of this
+                credit union; volunteers in the community; members of the immediate
+                family or household; and organizations of such persons are also
+                eligible. </p>
+            </div>        	
+        </div>
+    </div>

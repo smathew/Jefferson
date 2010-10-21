@@ -1,0 +1,81 @@
+<%= javascript_include_tag "rcv" %>
+    <% form_tag(rcr_path, :method => :get) do %>
+        <table class="calculator">
+            <tr>
+            	<th colspan="2">Retirement Calculator</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <input type="radio" name=calculate_option value="0" checked />
+                Calculate the Annual Income You Will Receive After Retirement<br />
+                (Hint: Enter amounts in the Beginning Balance and the Annual
+                Contribution boxes, as well as the age parameters.)<br />
+                <br />
+                <hr />
+                <input type="radio" name=calculate_option value="1" />
+                Calculate the Annual Contribution You Must Make Before
+                Retirement<br />
+                (Hint: Enter amounts in the Beginning Balance and the Annual
+                Income boxes,<br />
+                as well as the age parameters.)<br />
+                <br />
+                <hr />
+                <input type="radio" name=calculate_option value="2" />
+                Calculate the Beginning Balance Required in Your Retirement
+                Account<br />
+                (Hint: Enter amounts in the Annual Contribution and the
+                Annual Income boxes,<br />
+                as well as the age parameters.)<br />
+                <br /></td>
+            </tr>
+            <tr>
+                <td>Beginning Balance:</td>
+                <td><input onFocus = select(); onBlur=checkPR(this.form); name=Principal value="0" /></td>
+            </tr>
+            <tr>
+            	<td>Interest Rate:</td>
+                <td><input onFocus = select(); onBlur = checkIR(this.form); name=Interestrate value=8 /></td>
+            </tr>
+            <tr>
+                <td>Annual Contribution:</td>
+                <td><input onFocus = select(); onBlur=checkAC(this.form); name=AnnualContribution value="0" /></td>
+            </tr>
+            <tr>
+                <td>Annual Income:</td>
+                <td><input onFocus = select(); onBlur=checkAI(this.form); name=AnnualIncome value="0" /></td>
+            </tr>
+            <tr>
+                <td>Present Age:</td>
+                <td><input onFocus = select(); onBlur=checkPresAge(this.form); name=PresentAge value=35 /></td>
+            </tr>
+            <tr>
+                <td>Retirement Age:</td>
+                <td><input onFocus = select(); onBlur=checkRetAge(this.form); name=RetirementAge value=65 /></td>
+            </tr>
+            <tr>
+                <td>Age At Which Retirement Withdrawals Will End:</td>
+                <td><input onFocus = select(); onBlur=checkWithAge(this.form); name=WithdrawalAge value=85 /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <input type="checkbox" name="today" value="1" checked />
+                Show Annual Income in Current Dollars<br />
+                (Hint: Check this box to show the annual income amount in today's
+                dollars.)<br />
+                <br />
+                <hr />
+                <input type="checkbox" name="inflation" value="0" />
+                Adjust for Inflation<br />
+                (Hint: Check this box to account for the effects of inflation
+                over time.)<br />
+                <br /></td>
+            </tr>
+            <tr>
+                <td>Inflation Rate:</td>
+                <td><input onFocus = select(); onBlur=checkInf(this.form); name=InflationRate value=3 /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><p class="centertext"><%= javascript_include_tag "enda" %></p></td>
+            </tr>          
+        </table>
+	<% end %>

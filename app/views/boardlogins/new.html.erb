@@ -1,0 +1,20 @@
+<% form_for(@boardlogin) do |f| %>
+  <%= f.error_messages %>
+  <table border="0" align="center" cellpadding="2">
+	<tr>	
+		<td colspan="2" style="background-color:#890202; color: #fff;">Jefferson County FCU Board Member Log In</td>
+	</tr>
+	<tr>	
+		<td font color="#000000"> UserId: </td>
+		<td><%= f.text_field :userid, :size => 15 %></td>
+	</tr>
+	<tr>	
+		<td font color="#000000"> Password: </td>
+		<td><%= f.text_field :password, :size => 15 %></td>
+	</tr>
+	<tr>	
+		<td colspan="2" align="center"><br />
+		<%= f.submit 'Log-In', :style=>"font:bold; background-color: #890202; color:#fff; text-align: center;" %></td>
+	</tr>
+  </table>
+<% end %>

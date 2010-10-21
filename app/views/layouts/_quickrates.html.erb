@@ -1,0 +1,58 @@
+<div id="rates" class="small_block clearfix">
+	<h2>Current Rate Summary</h2>
+		<div class="clearfix">
+            <table>
+                <caption class="clearfix"><span class="fleft">Rates (APR)</span><span class="fright"> As Low As* </span></caption>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Rate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Auto</td>
+                        <td class="rate">*4.24%</td>
+                    </tr>
+                    <tr>
+                        <td>Home Equity</td>
+                        <td class="rate">*4.25%</td>
+                    </tr>
+                    <tr>
+                        <td>Real Estate</td>
+                        <td class="rate">*4.30%</td>
+                    </tr>
+                  
+                </tbody>
+            </table>
+            <%= link_to "&raquo; more", rates_path(:anchor => "lrates"), :class=>"more" %>
+            <table>
+                <caption>Savings (APY)</caption>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Rate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Money Market</td>
+                        <td class="rate">0.45%&nbsp;-&nbsp;1.05%</td>
+                    </tr>
+                    <tr>
+                        <td>12 Month CD</td>
+                        <td class="rate">1.15%</td>
+                    </tr>
+                    <tr>
+                        <td>24 Month CD</td>
+                        <td class="rate">1.65%</td>
+                    </tr>
+                    <tr>
+                        <td>60 Month CD</td>
+                        <td class="rate">2.40%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <%= link_to "&raquo; more", rates_path, :class=>"more" %>
+		</div>
+	</div>

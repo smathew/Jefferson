@@ -1,0 +1,138 @@
+<div id="page_wrapper" class="clearfix">
+
+	<div id="header" class="clearfix">
+	   	<div id="logo"><%= link_to image_tag("jcfcu_logo.jpg", :width=>287, :height=>83, :alt=>""), root_path %> </div>
+        <h1>Jefferson County Federal Credit Union</h1>
+        <div class="text">
+            9600 Ormsby Station Road<br />
+            Louisville, KY 40223<br />
+            (502) 429-4955<br />
+            (800) 288-5228
+        </div>
+        
+        <div id="hblogin" class="clearfix">
+	<form id="hbloginF" method="post" action="https://www.jcfcu.org/hbv3_2/login.asp" class="clearfix">
+			<fieldset>
+				<ul class="clearfix">
+					<li>
+						<label for="hbloginFaccount">Account Number</label>
+						<input type="text" name="account" id="hbloginFaccount" size="10" class="formfield" />
+					</li>
+					<li>
+						<label for="hbloginFpassword">PIN</label>
+						<input type="password" name="pin" id="hbloginFpassword" size="10" class="formfield" />
+					</li>
+				</ul>
+				<input type="submit" value="LOGIN" class="submit" />
+			</fieldset>
+		</form>
+        </div>
+       
+    	<div id="nav">
+        <ul class="clearfix" id="menu">
+			<li>
+				<%= link_to "Online Services", olserv_path %>
+				<ul>
+							<li><%= link_to "Access Credit Card Account", "http://www.managemycreditcard.com", :rel=>"confirm external" %></li>
+							<li><%= link_to "Account Access", signin_path %></li>
+                            <li><%= link_to "Address Change", signin_path %></li>
+                            <li><%= link_to "Apply for Membership Now", new_memapp_path %></li>
+                            <li><%= link_to "Apply for a Loan Now", new_loanapp_path %></li>
+                            <li><%= link_to "Bill Payer", prodserv_path(:anchor=>"billpayer") %></li>
+                            <li><%= link_to "Calculators", calculators_path %></li>
+                            <li><%= link_to "Check Images", signin_path %></li>
+                            <li><%= link_to "Check Ordering", signin_path %></li>
+                            <li><%= link_to "Electronic Disclosure", disclosure_path %></li>
+                            <li><%= link_to "Online Newsletter", ondoc_path %></li>
+                            <li><%= link_to "Online Forms and Publications", ondoc_path %></li>
+                            <li><%= link_to "Privacy Statement", privacy_path %></li>
+                            <li><%= link_to "Sign Our Guestbook", new_guestbook_path %></li>
+                            <li><%= link_to "E-Statements", signin_path %></li>
+				</ul>
+
+			</li>
+			<li>
+				<%= link_to "Products &amp; Services", prodserv_path %>
+				<ul>
+							<li><%= link_to "Amusement Park Tickets", prodserv_path(:anchor=>"amusement") %></li>
+                            <li><%= link_to "ATM Locations", prodserv_path(:anchor=>"atms") %></li>
+                            <li><%= link_to "Business Checking Account", prodserv_path(:anchor=>"moneymarket") %></li>
+                            <li><%= link_to "Checking Account - Regular", prodserv_path(:anchor=>"checking") %></li>
+                            <li><%= link_to "Checking Account - Rewards Plus", promotions_path %></li>
+                            <li><%= link_to "Christmas Club Account", prodserv_path(:anchor=>"christmas") %></li>
+                            <li><%= link_to "Consumer Assistance Info", prodserv_path(:anchor=>"consumer") %></li>
+                            <li><%= link_to "Here and Now Financing", indirect_path %></li>
+                            <li><%= link_to "Home Branch - Computer Access", signin_path %></li>
+                            <li><%= link_to "Info Teller - Phone Access", prodserv_path(:anchor=>"telephone") %></li>
+                            <li><%= link_to "Insurance Plans", prodserv_path(:anchor=>"insurance") %></li>
+                            <li><%= link_to "Loan Products", prodserv_path(:anchor=>"loans") %></li>
+                            <li><%= link_to "Money Market Account", prodserv_path(:anchor=>"moneymarket") %></li>
+                            <li><%= link_to "Summary of All Services", servicesummary_path %></li>
+                            <li><%= link_to "Overdraft Protection", prodserv_path(:anchor=>"overdraft") %></li>
+                            <li><%= link_to "Share Accounts", prodserv_path(:anchor=>"shares") %></li>
+                            <li><%= link_to "Share Certificates of Deposit", prodserv_path(:anchor=>"certificates") %></li>
+                            <li><%= link_to "E-Statement Information", prodserv_path(:anchor=>"statements") %></li>
+                            <li><%= link_to "ID Theft Recovery Service", idtheft_path %></li>
+                            <li><%= link_to "ID Theft Information", idtheftnets_path %></li>
+                            <li><%= link_to "Bill Payer", prodserv_path(:anchor=>"billpayer") %></li>
+                            <li><%= link_to "ACH Origination", prodserv_path(:anchor=>"achorig") %></li>
+                            <li><%= link_to "Automatic Payments", prodserv_path(:anchor=>"autopay") %></li>
+                            <li><%= link_to "Direct Deposit", prodserv_path(:anchor=>"directdeposit") %></li>
+			  </ul>
+
+			</li>
+			<li>
+				<%= link_to "Locations &amp; Hours", ourcu_path %>
+				<ul>
+							<li><%= link_to "Branch Locations", ourcu_path(:anchor=>"offices") %></li>
+							<li><%= link_to "Main Office Location", ourcu_path(:anchor=>"offices") %></li>
+							<li><%= link_to "Shared Branch Locations", ourcu_path(:anchor=>"sharedbranch") %></li>
+							<li><%= link_to "Office Closing Schedule", ourcu_path(:anchor=>"closings") %></li>
+               </ul>
+
+			</li>
+			<li>
+				<%= link_to "Rates", rates_path %>
+				<ul>
+							<li><%= link_to "Certificates of Deposit", rates_path(:anchor=>"cert") %></li>
+                            <li><%= link_to "Loans", rates_path(:anchor => "lrates") %></li>
+                            <li><%= link_to "Shares", rates_path(:anchor => "shares") %></li>
+                            <li><%= link_to "Calculators", calculators_path %></li>
+				</ul>
+
+			</li>
+			<li>
+				<%= link_to "Loans", prodserv_path(:anchor=>"loans") %>
+				<ul>
+							<li><%= link_to "Apply Online Now", new_loanapp_path %></li>
+                            <li><%= link_to "Apply for a Credit Card", prodserv_path(:anchor=>"creditcard") %></li>
+                            <li><%= link_to "Calculators", calculators_path %></li>
+                            <li><%= link_to "Credit Card - Access Existing", "http://www.managemycreditcard.com", :rel=>"confirm external" %></li>
+                            <li><%= link_to "Credit Card - Rewards Status", "http://www.managemyrew.com", :rel=>"confirm external" %></li>
+                            <li><%= link_to "Here and Now Financing", indirect_path %></li>
+                            <li><%= link_to "Loan Products", prodserv_path(:anchor=>"loans") %></li>
+                            <li><%= link_to "NADA", "http://www.nada.com", :rel=>"confirm external" %></li>
+                            <li><%= link_to "100% Real Estate Loans", prodserv_path(:anchor=>"realestate") %></li>
+                            <li><%= link_to "Print Application Form", root_path + "pdf/generic_appl.pdf" %></li>
+                            <li><%= link_to "Reverse Mortgage", prodserv_path(:anchor=>"reversemortgage") %></li>
+                            
+				</ul>
+
+			</li>
+			<li><%= link_to "How to Join", new_memapp_path %>
+				<ul>
+							<li><%= link_to "Eligibility", new_memapp_path %></li>
+							<li><%= link_to "Apply Online Now", new_memapp_path %></li>
+                            <li><%= link_to "Print Membership Forms", root_path + "pdf/memagr_n.pdf" %></li>
+			  </ul>       
+			</li>
+			<li>
+				<%= link_to "Applications", olserv_path %>
+				<ul>
+							<li><%= link_to "Loan Application", new_loanapp_path %></li>
+							<li><%= link_to "Membership Application", new_memapp_path %></li>
+			  </ul>       
+			</li>
+		</ul>
+		</div>
+    </div>

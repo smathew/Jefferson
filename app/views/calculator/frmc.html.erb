@@ -1,0 +1,33 @@
+<%= javascript_include_tag "frmcv" %>
+	<% form_tag(frmcr_path, :method => :get) do %>
+        <table class="calculator">
+            <tr>
+            	<th colspan="2">Fixed Rate Mortgage Calculator</th>
+            </tr>
+            <tr>
+                <td>Loan Amount:</td>
+                <td><input onFocus = select(); onBlur=checkLA(this.form); name="LoanAmount" value="250000" /></td>
+            </tr>
+            <tr>
+                <td>Interest Rate:</td>
+                <td><input onFocus = select(); onBlur = checkIR(this.form); name="Interestrate" value="8" /></td>
+            </tr>
+            <tr>
+                <td>Number of Months:</td>
+                <td><input onFocus = select(); onBlur = checkM(this.form); name="NumberOfMonths" value="360" /></td>
+            </tr>
+            <tr>
+                <td>Additional Principal Per Month:</td>
+                <td><input onFocus = select(); onBlur=checkAP(this.form); name="AdditionalPrincipal" value="0" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="radio" name="calculate_option" value="0" checked />
+                Calculate Payment Only<br />
+                <input type="radio" name="calculate_option" value="1" />
+                Calculate Payment and Display Amortization Schedule<br /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><p class="centertext"><%= javascript_include_tag "enda" %></p></td>
+            </tr>          
+        </table>
+    <% end %>

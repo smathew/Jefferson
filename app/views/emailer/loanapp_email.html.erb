@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>HTML Response from JCFCU </title>
+	<style type=\"text/css\">
+		.request { width: 650px; margin: 0; padding: 0; font-family:Arial, Helvetica, sans-serif; font-size: .8em; border: 1px solid #890202; border-collapse: collapse;}
+		.first {font-weight: bold; height: 20px; margin: 0;  width: 300px;}
+		table {border: 1px solid #890202;}			
+		td {padding: 10px; margin: 0; border-bottom: 1px solid #890202;}
+		th {width: 100%; background-color: #990033; color: #fff; text-transform: uppercase; font-size: 1.2em; padding: 5px; text-align: left;}
+		.first {background-color: #ccc; color: #890202; margin: 0; padding: 0;}			
+	</style>			
+</head>
+<body>
+	<table>
+		<tr>
+			<th colspan="2">LOAN APPLICATION</th>
+		</tr>
+		<tr>
+			<td>Date Submitted :</td>
+			<td><%= Time.now.strftime("%A, %B %d, %Y, %H:%M:%S") %></td>
+		</tr>
+		<tr><td>Loan Type : </td><td><%= @app.loan_type %></td></tr>
+		<tr><td>Loan Amount : </td><td><%= @app.amount_requested %></td></tr>
+		<tr><td>Preferred Closing Location : </td><td><%= @app.preferred_closing_location %></td></tr>
+		<tr><td>Insurance? : </td><td><%= @app.credit_life_or_disability_insurance %></td></tr>
+		<tr><th colspan=2>APPLICANT INFORMATION</th><tr><td>Name : </td><td><%= @app.applicant_name %></td></tr>
+		<tr><td>Account : </td><td><%= @app.applicant_account_number %></td></tr>
+		<tr><td>Address : </td><td><%= @app.applicant_address %></td></tr>
+		<tr><td>City : </td><td><%= @app.applicant_city %></td></tr>
+		<tr><td>State : </td><td><%= @app.applicant_state %></td></tr>
+		<tr><td>Zip : </td><td><%= @app.applicant_zip %></td></tr>
+		<tr><td>Home Phone : </td><td><%= @app.applicant_home_phone %></td></tr>
+		<tr><td>Cell Phone : </td><td><%= @app.applicant_cell_phone %></td></tr>
+		<tr><td>Email Address : </td><td><%= @app.applicant_email_address %></td></tr>
+		<tr><td>Best Time To Call : </td><td><%= @app.applicant_time_to_call %></td></tr>
+		<tr><td>SSN : </td><td><%= @app.applicant_ssn %></td></tr>
+		<tr><td>Birth Date : </td><td><%= @app.applicant_date_of_birth %></td></tr>
+		<tr><td>Employer : </td><td><%= @app.applicant_employer %></td></tr>
+		<tr><td>Employer Address : </td><td><%= @app.applicant_employer_address %></td></tr>
+		<tr><td>Hire Date : </td><td><%= @app.applicant_hire_date %></td></tr>
+		<tr><td>Work Phone : </td><td><%= @app.applicant_work_phone %></td></tr>
+		<tr><td>Income : </td><td><%= @app.applicant_monthly_salary %></td></tr>
+		<tr><td>Other Income Amount : </td><td><%= @app.applicant_other_income %></td></tr>
+		<tr><td>Source of Other Income : </td><td><%= @app.applicant_other_income_source %></td></tr>
+		<tr><td>Mortgage/Rent : </td><td><%= @app.applicant_mortgage_rent_payment %></td></tr>
+			
+			
+		// In case the co-applicants details are not entered, do not display his info
+		<% if !@app.coapplicant_name.blank? %>
+			<tr><td colspan=2 ><b>CO-APPLICANT INFORMATION</b></td><tr><td><font face="tahoma" size="2">Name : </font></td><td><%= @app.coapplicant_name %></td></tr>
+			<tr><td>Account : </td><td><%= @app.coapplicant_account_number %></td></tr>
+			<tr><td>Address : </td><td><%= @app.coapplicant_address %></td></tr>
+			<tr><td>City : </td><td><%= @app.coapplicant_city %></td></tr>
+			<tr><td>State : </td><td><%= @app.coapplicant_state %></td></tr>
+			<tr><td>Zip : </td><td><%= @app.coapplicant_zip %></td></tr>
+			<tr><td>Home Phone : </td><td><%= @app.coapplicant_home_phone %></td></tr>
+			<tr><td>Cell Phone : </td><td><%= @app.coapplicant_cell_phone %></td></tr>
+			<tr><td>Email Address : </td><td><%= @app.coapplicant_email_address %></td></tr>
+			<tr><td>Best Time To Call : </td><td><%= @app.coapplicant_time_to_call %></td></tr>
+			<tr><td>SSN :</td><td><%= @app.coapplicant_ssn %></td></tr>
+			<tr><td>Birth Date : </td><td><%= @app.coapplicant_date_of_birth %></td></tr>
+				
+			<tr><td>Employer : </td><td><%= @app.coapplicant_employer %></td></tr>
+			<tr><td>Employer Address : </td><td><%= @app.coapplicant_employer_address %></td></tr>
+			<tr><td>Hire Date : </td><td><%= @app.coapplicant_hire_date %></td></tr>
+			<tr><td>Work Phone : </td><td><%= @app.coapplicant_work_phone %></td></tr>
+				
+			<tr><td>Income : </td><td><%= @app.coapplicant_monthly_salary %></td></tr>
+			<tr><td>Other Income Amount : </td><td><%= @app.coapplicant_other_income %></td></tr>
+			<tr><td>Source of Other Income : </td><td><%= @app.coapplicant_other_income_source %></td></tr>
+			<tr><td>Mortgage/Rent : </td><td><%= @app.coapplicant_mortgage_rent_payment %></td></tr>
+		<% end %>
+	</table>
+</body>
+</html>

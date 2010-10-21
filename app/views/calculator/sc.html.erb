@@ -1,0 +1,79 @@
+<%= javascript_include_tag "scv" %>
+    <% form_tag(scr_path, :method => :get) do %>       
+        <table class="calculator">
+        <tr>
+        	<th colspan="2">Savings Calculator</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <input type="radio" name="calculate_option" value="0" checked />
+            Calculate the Ending Balance<br />
+            (Hint: Enter amounts in the Beginning Balance and Periodic
+            Contribution boxes.)<br />
+            <br />
+            <hr />
+            <input type="radio" name="calculate_option" value="1" />
+            Calculate the Beginning Balance<br />
+            (Hint: Enter amounts in the Periodic Contribution and Ending
+            Balance boxes.)<br />
+            <br />
+            <hr />
+            <input type="radio" name="calculate_option" value="2" />
+            Calculate the Periodic Contribution<br />
+            (Hint: Enter amounts in the Beginning Balance and Ending
+            Balance boxes.)<br />
+            <br /></td>
+        </tr>
+        <tr>
+            <td>Beginning Balance:</td>
+            <td><input onFocus = select(); onBlur = checkBB(this.form); name="BeginningBalance" value="0" /></td>
+        </tr>
+        <tr>
+            <td>Interest Rate:</td>
+            <td><input onFocus = select(); onBlur = checkIR(this.form); name="Interestrate" value="8" /></td>
+        </tr>
+        <tr>
+            <td>Periodic Contribution:</td>
+            <td><input onFocus = select(); onBlur = checkPC(this.form); name="PeriodicContribution" value="0" /></td>
+        </tr>
+        <tr>
+            <td>Number of Periods:</td>
+            <td><input onFocus = select(); onBlur = checkNP(this.form); name="NumberOfPeriods" value="0" /></td>
+        </tr>
+        <tr>
+            <td>Ending Balance:</td>
+            <td><input onFocus = select(); onBlur="checkEB(this.form);" name="EndingBalance" value="0" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <input type="radio" name="compound_option" value="0" />
+            Compound on a Weekly Basis<br />
+            <input type="radio" name="compound_option" value="1" checked />
+            Compound on a Monthly Basis<br />
+            <input type="radio" name="compound_option" value="2" />
+            Compound on a Quarterly Basis<br />
+            <input type="radio" name="compound_option" value="3" />
+            Compound on an Annual Basis<br />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <input type="checkbox" name="today" value="1" checked />
+            Show Ending Balance in Current Dollars<br />
+            (Hint: Check this box to show the ending balance in today's dollars.)<br />
+            <hr />
+            <input type="checkbox" name="inflation" value="0" />
+            Adjust for Inflation<br />
+            (Hint: Check this box to inflate the periodic contributions.)<br />
+            <br />
+            </td>
+        </tr>
+        <tr>
+            <td>Inflation Rate:</td>
+            <td><input onFocus = select(); onBlur=checkInf(this.form); name="InflationRate" value=3 /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><p class="centertext"><%= javascript_include_tag "enda" %></p></td>
+        </tr>        
+    </table>
+<% end %>
